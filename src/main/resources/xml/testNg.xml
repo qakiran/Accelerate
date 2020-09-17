@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite allow-return-values="false" configfailurepolicy="skip"
+	data-provider-thread-count="10" group-by-instances="false"
+	guice-stage="DEVELOPMENT" junit="false" name="FOAM Automation"
+	parallel="none" preserve-order="true"
+	skipfailedinvocationcounts="false" thread-count="5">
+	<test allow-return-values="false" group-by-instances="false"
+		junit="false" name="Regression" preserve-order="true"
+		skipfailedinvocationcounts="false">
+
+		<!-- <packages>
+		<package name="com.accelerate.keyword"/>
+		</packages> -->
+		<classes>
+			<class name="com.accelerate.keyword.RunKeywords"></class>
+		</classes>
+	</test>
+</suite>

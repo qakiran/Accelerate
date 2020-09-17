@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FOAM Automation]">
+  <test name="Regression(failed)">
+    <classes>
+      <class name="com.foam.testcases.FOAMTest">
+        <methods>
+          <include name="confirmPayment"/>
+          <include name="closeBrowserInstance"/>
+        </methods>
+      </class> <!-- com.foam.testcases.FOAMTest -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [FOAM Automation] -->
