@@ -45,3 +45,5 @@ public class ReportsPage extends BaseElementPage {
 		element.click(ReportClose, "");
 	}
 }
+
+

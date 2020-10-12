@@ -10,7 +10,7 @@ import com.fiserv.keyword.Keywords;
 
 public class DataEntry extends DataEntryPage {
 
-	//Logger log = Logger.getLogger(DataEntry.class.getName());
+	Logger log = Logger.getLogger(DataEntry.class.getName());
 
 	@Keywords(description = "Fill Data Entry Page 0", category = "DataEntry", author = "ATeam")
 
@@ -165,7 +165,7 @@ public class DataEntry extends DataEntryPage {
 		enterLiabilityLoanBalance(KeywordConstants.getKeyWordData().get("LiabilityLoanBalance"));
 		enterLiabilityInstitution(KeywordConstants.getKeyWordData().get("LiabilityInstitution"));
 		enterLiabilityDateOpened(KeywordConstants.getKeyWordData().get("LiabilityDateOpened"));
-		enterLiabilityAccountNumber(KeywordConstants.getKeyWordData().get("LiabilityAccountNumber"));
+		//enterLiabilityAccountNumber(KeywordConstants.getKeyWordData().get("LiabilityAccountNumber"));
 		enterLiabilityAddress1(KeywordConstants.getKeyWordData().get("LiabilityAddress1"));
 		enterLiabilityZipCode(KeywordConstants.getKeyWordData().get("LiabilityZipCode"));
 		addButton();
@@ -655,8 +655,8 @@ public class DataEntry extends DataEntryPage {
 		clickLienFiling();
 		clickLienFilingYes();
 		enterFiledBy(KeywordConstants.getKeyWordData().get("FiledBy"));
-		enterDateFiled(KeywordConstants.getKeyWordData().get("DateFiled"));
-		enterDateReceived(KeywordConstants.getKeyWordData().get("DateReceived"));
+		enterDateFiled();
+		enterDateReceived();
 		
 		}
 	
@@ -667,10 +667,10 @@ public class DataEntry extends DataEntryPage {
 		try {
 			Thread.sleep(5000);
 			clickSubmit();
-			Thread.sleep(25000);
+			Thread.sleep(30000);
 			CloseActionStatuswindow();
 
-		} catch (InterruptedException e) {
+		} catch (Exception e) {
 			System.out.println("Submit button not found");
 			e.printStackTrace();
 		}

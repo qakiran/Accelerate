@@ -33,184 +33,184 @@ public class DataEntryPage extends BaseElementPage {
 	}
 
 	public By productDropDown = By.xpath("//label[@for='Product']/..//span[@class='k-input']");
-	public By RequestedAmt = By.xpath(
+	public By requestedAmt = By.xpath(
 			"//label[contains(text(), 'Requested Amount')]/parent::*/following-sibling::*/span/input[contains(@class,'k-input')]");
 	public By Branch = By.xpath("//input[@class='k-input' and @role='textbox']");
-	public By DeliveryMethodDropDown = By
+	public By deliveryMethodDropDown = By
 			.xpath("//label[contains(text(), 'Delivery Method')]/following-sibling::*/span/span[@class='k-input']");
 	public By SSN = By.xpath("//input[@id='SSN']");
-	public By FirstName = By.xpath("//input[@id='FirstName']");
+	public By firstName = By.xpath("//input[@id='FirstName']");
 	// public By CopyDataClosebttn =
 	// By.xpath("//span[@id='drawerId-3_label']/parent::*/button[@id='drawer-close-button-drawerId-3']/span[@role='presentation']");
-	public By CopyDataClosebttn = By.xpath(
+	public By copyDataClosebttn = By.xpath(
 			"//span[contains(text(),'Copy Data ')]/../button[@aria-label='Close Drawer']/span[@role='presentation']");
-	public By MiddleName = By.xpath("//input[@id='MiddleName']");
-	public By LastName = By.xpath("//input[@id='LastName']");
-	public By Savebttn = By.xpath("//button[@type='submit']");
-	public By CashPriceIV = By.xpath("//label[contains(text(),'Cash Price')]/../kendo-numerictextbox/span/input");
+	public By middleName = By.xpath("//input[@id='MiddleName']");
+	public By lastName = By.xpath("//input[@id='LastName']");
+	public By saveBttn = By.xpath("//button[@type='submit']");
+	public By cashPriceIV = By.xpath("//label[contains(text(),'Cash Price')]/../kendo-numerictextbox/span/input");
 	public By Dealer = By.xpath("//label[contains(text(),'Dealer')]/../div/kendo-autocomplete/kendo-searchbar/input");
 
 	// Applicant Summary
-	public By AccountNo = By.xpath("//input[@id='AccountNumber_maskedInput']");
-	public By InstRelationship = By.xpath(
+	public By accountNo = By.xpath("//input[@id='AccountNumber_maskedInput']");
+	public By instRelationship = By.xpath(
 			"//label[contains(text(), 'Institution Relationship')]/following-sibling::*/span/span[@class='k-input']");
 	public By DOB = By.xpath(
 			"//label[contains(text(), 'Date of Birth ')]/parent::*/kendo-datepicker/span/kendo-dateinput/span/input[contains(@class,'k-input')]");
-	public By MaritalstatusDropDown = By.xpath(
+	public By maritalstatusDropDown = By.xpath(
 			"//label[contains(text(), 'Marital Status')]/parent::*/kendo-dropdownlist/span/span[@class='k-input']");
-	public By DLNumber = By.xpath("//input[@id='DriversLicenseNumber']");
+	public By dlNumber = By.xpath("//input[@id='DriversLicenseNumber']");
 	public By Occupation = By.xpath("//input[@id='Occupation']");
-	public By OccupationLength = By.xpath(
+	public By occupationLength = By.xpath(
 			"//label[contains(text(), ' Occupation Length ')]/../kendo-numerictextbox/span/input[contains(@class,'k-input')]");
-	public By PreferredMethod = By.xpath(
+	public By preferredMethod = By.xpath(
 			"//label[contains(text(),'Preferred Method')]/parent::*/div/kendo-dropdownlist/span/span[contains(@class,'k-input')]");
-	public By HomePhone = By.xpath("//input[@id='HomeNumber']");
-	public By ContactFavorite = By
+	public By homePhone = By.xpath("//input[@id='HomeNumber']");
+	public By contactFavorite = By
 			.xpath("//input[@id='HomeNumber']/parent::*/label[@title='Click to select as favorite']");
 	public By Email1 = By.xpath("//label[contains(text(),' Email 1 ')]/../div/input[@id='Primary']");
 	public By SSN2 = By.xpath("//input[@id='IdentificationNumber']");
-	public By FirstName2 = By.xpath("//input[@id='FirstName']");
-	public By LastName2 = By.xpath("//input[@id='LastName']");
-	public By CancelApplicant = By
+	public By firstName2 = By.xpath("//input[@id='FirstName']");
+	public By lastName2 = By.xpath("//input[@id='LastName']");
+	public By cancelApplicant = By
 			.xpath("//*[@id='k-panelbar-1-item-default-5']/div/div/div/div/ul/li[2]/button/text()");
 
 	// Address fields
 	public By Address = By.xpath("//span[@data-compname='adressInformation']/parent::*");
-	public By AddressType = By
+	public By addressType = By
 			.xpath("//label[contains(text(), 'Address Type')]/../kendo-dropdownlist/span/span[@class='k-input']");
-	public By AddressStatus = By.xpath("//label[text()=' Status ']/../kendo-dropdownlist/span/span[@class='k-input']");
-	public By Lengthyrs = By.xpath(
+	public By addressStatus = By.xpath("//label[text()=' Status ']/../kendo-dropdownlist/span/span[@class='k-input']");
+	public By lengthYrs = By.xpath(
 			"//label[text()=' Length ']/../div/kendo-numerictextbox/span[contains(@class,'k-numeric')]/input[contains(@class,'k-input')]");
-	public By MonthlyPayment = By
+	public By monthlyPayment = By
 			.xpath("//label[text()=' Monthly Payment ']/../kendo-numerictextbox/span/input[@role='spinbutton']");
-	public By AddressDesc = By.xpath("//textarea[@id='AddressDesc']");
-	public By Address1 = By.xpath("//input[@id='FirstLine']");
+	public By addressDesc = By.xpath("//textarea[@id='AddressDesc']");
+	public By address1 = By.xpath("//input[@id='FirstLine']");
 	public By ZipCode = By.xpath("//label[contains(text(),'Zip Code')]/../div/input[@type='text']");
 	public By City = By.xpath("//input[@id='City']");
-	public By AddButton = By.xpath("//button[@type='submit' and contains(text(),'Add')]");
-	public By QuickSearch = By.xpath("//*[@id='search']");
-	public By Address1NAS = By.xpath("(//input[@id='FirstLine'])[1]");
-    public By ZipCodeNAS = By.xpath("(//label[contains(text(),'Zip Code')]/../div/input[@type='text'])[1]");
+	public By addButton = By.xpath("//button[@type='submit' and contains(text(),'Add')]");
+	public By quickSearch = By.xpath("//*[@id='search']");
+	public By address1NAS = By.xpath("(//input[@id='FirstLine'])[1]");
+    public By zipcodeNAS = By.xpath("(//label[contains(text(),'Zip Code')]/../div/input[@type='text'])[1]");
 	
 	// Employment fields
 	public By Employers = By.xpath("//span[@data-compname = 'employersInformation']/parent::*");
-	public By EmpAdd1 = By.xpath("//input[@id='FirstLine']");
-	public By EmpZipCode = By.xpath("//label[contains(text(),'Zip Code')]/../div/input[@type='text']");
-	public By EmpCity = By.xpath("//input[@id='City']");
-	public By EmpSupervisor = By.xpath("//input[@id='SupervisorName']");
-	public By EmpType = By.xpath("//label[text()=' Type ']/../kendo-dropdownlist/span/span[@class='k-input']");
-	public By EmployerName = By
+	public By empAdd1 = By.xpath("//input[@id='FirstLine']");
+	public By empZipCode = By.xpath("//label[contains(text(),'Zip Code')]/../div/input[@type='text']");
+	public By empCity = By.xpath("//input[@id='City']");
+	public By empSupervisor = By.xpath("//input[@id='SupervisorName']");
+	public By empType = By.xpath("//label[text()=' Type ']/../kendo-dropdownlist/span/span[@class='k-input']");
+	public By employerName = By
 			.xpath("//label[contains(text(),' Employer Name ')]/following-sibling::input[@id='Name']");
-	public By EmployerLengthYr = By.xpath(
+	public By employerLengthYr = By.xpath(
 			"//label[contains(text(),'Length')]/../div/kendo-numerictextbox/span[contains(@class,'k-numeric')]/input[contains(@class,'k-input')]");
-	public By EmployerPosition = By.xpath("//input[@id='PositionTitle']");
-	public By EmployerAmount = By.xpath(
+	public By employerPosition = By.xpath("//input[@id='PositionTitle']");
+	public By employerAmount = By.xpath(
 			"//label[contains(text(),' Amount ')]/../kendo-numerictextbox/span[contains(@class,'k-numeric')]/input[contains(@class,'k-input')]");
 	public By Frequency = By.xpath(
 			"//label[contains(text(),' Frequency ')]/../kendo-dropdownlist/span/span[contains(@class,'k-input')]");
 	// public By Addbutton = By.xpath("//button[@type='submit']");
 	public By CTRLM = By.xpath("//div[contains(text(), ' Ctrl + M')]");
-	public By EmpAddress1NAS = By.xpath("(//input[@id='FirstLine'])[2]");
-    public By EmpZipCodeNAS = By.xpath("(//label[contains(text(),'Zip Code')]/../div/input[@type='text'])[2]");
+	public By empAddress1NAS = By.xpath("(//input[@id='FirstLine'])[2]");
+    public By empZipCodeNAS = By.xpath("(//label[contains(text(),'Zip Code')]/../div/input[@type='text'])[2]");
 
 	// Income
 	public By Income = By.xpath("//span[@data-compname = 'incomeInformation']/parent::*");
-	public By AddNewIncome = By.xpath("//a[@class='ml-auto mb-3 uppercase-link']/span");
-	public By IncomeType = By
+	public By addNewIncome = By.xpath("//a[@class='ml-auto mb-3 uppercase-link']/span");
+	public By incomeType = By
 			.xpath("//label[text()=' Income Type ']/../kendo-dropdownlist/span/span[@class='k-input']");
-	public By IncomeSource = By.xpath("//input[@id='SourceDescription']");
-	public By IncomeAmount = By.xpath(
+	public By incomeSource = By.xpath("//input[@id='SourceDescription']");
+	public By incomeAmount = By.xpath(
 			"//label[contains(text(), ' Amount ')]/../kendo-numerictextbox/span/input[contains(@class,'k-input')]");
-	public By IncomeAmountNAS = By.xpath("(//label[contains(text(), ' Amount ')]/../kendo-numerictextbox/span/input[contains(@class,'k-input')])[2]");
+	public By incomeAmountNAS = By.xpath("(//label[contains(text(), ' Amount ')]/../kendo-numerictextbox/span/input[contains(@class,'k-input')])[2]");
 
 	// Asset
 	public By Asset = By.xpath("//span[@data-compname = 'assestsInformation']/parent::*");
-	public By AssetType = By.xpath("//label[text()=' Asset Type ']/../kendo-dropdownlist/span/span[@class='k-input']");
-	public By AssetDescription = By.xpath("//textarea[@id='Description']");
-	public By AssetCashMarketValue = By.xpath(
+	public By assetType = By.xpath("//label[text()=' Asset Type ']/../kendo-dropdownlist/span/span[@class='k-input']");
+	public By assetDescription = By.xpath("//textarea[@id='Description']");
+	public By assetCashMarketValue = By.xpath(
 			"//label[contains(text(),'Cash/Market Value ')]/../kendo-numerictextbox/span/input[contains(@class,'k-input')]");
-	public By AssetLoanBalance = By.xpath(
+	public By assetLoanBalance = By.xpath(
 			"//label[contains(text(),'Loan Balance ')]/../kendo-numerictextbox/span/input[contains(@class,'k-input')]");
 	// public By AssetAccountNumber =
 	// By.xpath("//label[@for='AccountNumber']/../input[contains(@id,'AccountNumber')][1]");
 	// public By AssetAccountNumber =
 	// By.xpath("//label[@for='AccountNumber']/../div/input[@id='AccountNumber_maskedInput']");
-	public By AssetAccountNumber = By.xpath(
+	public By assetAccountNumber = By.xpath(
 			"//label[contains(text(), 'Date Opened')]/../../..//label[contains(text(), 'Account Number')]//following::input[1] ");
-	public By AssetInstitution = By.xpath("//input[@id='InstitutionName']");
-	public By AssetDateOpened = By.xpath(
+	public By assetInstitution = By.xpath("//input[@id='InstitutionName']");
+	public By assetDateOpened = By.xpath(
 			"//label[contains(text(), 'Date Opened ')]/parent::*/kendo-datepicker/span/kendo-dateinput/span/input[contains(@class,'k-input')]");
-	public By AssetAddress1 = By.xpath("//input[@id='FirstLine']");
-	public By AssetZipCode = By.xpath("//label[contains(text(),'Zip Code')]/../div/input[@type='text']");
-	public By AssetAddress1NAS = By.xpath("(//input[@id='FirstLine'])[3]");
-    public By AssetZipCodeNAS = By.xpath("(//label[contains(text(),'Zip Code')]/../div/input[@type='text'])[3]");
+	public By assetAddress1 = By.xpath("//input[@id='FirstLine']");
+	public By assetZipCode = By.xpath("//label[contains(text(),'Zip Code')]/../div/input[@type='text']");
+	public By assetAddress1NAS = By.xpath("(//input[@id='FirstLine'])[3]");
+    public By assetZipCodeNAS = By.xpath("(//label[contains(text(),'Zip Code')]/../div/input[@type='text'])[3]");
 
 	// Liabilities
 	public By Liability = By.xpath("//span[@data-compname = 'liabilitiesInformation']/parent::*");
-	public By LiabilityType = By
+	public By liabilityType = By
 			.xpath("//label[text()=' Liability Type ']/../kendo-dropdownlist/span/span[@class='k-input']");
-	public By LiabilityDescription = By.xpath("//textarea[@id='Description']");
-	public By LiabilityCashMarketValue = By.xpath(
+	public By liabilityDescription = By.xpath("//textarea[@id='Description']");
+	public By liabilityCashMarketValue = By.xpath(
 			"//label[contains(text(),'Cash/Market Value ')]/../kendo-numerictextbox/span/input[contains(@class,'k-input')]");
-	public By LiabilityLoanBalance = By.xpath(
+	public By liabilityLoanBalance = By.xpath(
 			"//label[contains(text(),'Loan Balance ')]/../kendo-numerictextbox/span/input[contains(@class,'k-input')]");
-	public By LiabilityAccountNumber = By.xpath(
+	public By liabilityAccountNumber = By.xpath(
 			"//label[contains(text(), 'Date Opened')]/../../..//label[contains(text(), 'Account Number')]//following::input[1] ");
-	public By LiabilityInstitution = By.xpath("//input[@id='InstitutionName']");
-	public By LiabilityDateOpened = By.xpath(
+	public By liabilityInstitution = By.xpath("//input[@id='InstitutionName']");
+	public By liabilityDateOpened = By.xpath(
 			"//label[contains(text(), 'Date Opened ')]/parent::*/kendo-datepicker/span/kendo-dateinput/span/input[contains(@class,'k-input')]");
-	public By LiabilityAddress1 = By.xpath("//input[@id='FirstLine']");
-	public By LiabilityZipCode = By.xpath("//label[contains(text(),'Zip Code')]/../div/input[@type='text']");
-	public By LiabilityAddress1NAS = By.xpath("(//input[@id='FirstLine'])[4]");
-    public By LiabilityZipCodeNAS = By.xpath("(//label[contains(text(),'Zip Code')]/../div/input[@type='text'])[4]");
+	public By liabilityAddress1 = By.xpath("//input[@id='FirstLine']");
+	public By liabilityZipCode = By.xpath("//label[contains(text(),'Zip Code')]/../div/input[@type='text']");
+	public By liabilityAddress1NAS = By.xpath("(//input[@id='FirstLine'])[4]");
+    public By liabilityZipCodeNAS = By.xpath("(//label[contains(text(),'Zip Code')]/../div/input[@type='text'])[4]");
 
 	// References
 	public By References = By.xpath("//span[@data-compname = 'referencesInformation']/parent::*");
-	public By ReferenceType = By
+	public By referenceType = By
 			.xpath("//label[text()=' Reference Type ']/../kendo-dropdownlist/span/span[@class='k-input']");
-	public By ReferenceRelationship = By
+	public By referenceRelationship = By
 			.xpath("//label[text()=' Relationship ']/../kendo-dropdownlist/span/span[@class='k-input']");
-	public By ReferenceFirstName = By.xpath(
+	public By referenceFirstName = By.xpath(
 			"//div[text()=' Add New Reference ']/..//form/div/following-sibling::*/div/following-sibling::*/div/input[@id='FirstName']");
-	public By ReferenceLastName = By.xpath(
+	public By referenceLastName = By.xpath(
 			"//div[text()=' Add New Reference ']/..//form/div/following-sibling::*/div/following-sibling::*/div/input[@id='LastName']");
-	public By ReferenceDOB = By.xpath(
+	public By referenceDOB = By.xpath(
 			"//label[contains(text(),'Date Of Birth')]/../kendo-datepicker//kendo-dateinput//input[@class='k-input']");
-	public By ReferencePhoneNumber = By.xpath("//input[@id='PhoneNumber']");
-	public By ReferenceAddress1 = By.xpath("//input[@id='FirstLine']");
-	public By ReferenceZipCode = By.xpath("//label[contains(text(),'Zip Code')]/../div/input[@type='text']");
-	public By RefAddress1NAS = By.xpath("(//input[@id='FirstLine'])[5]");
-    public By RefZipCodeNAS = By.xpath("(//label[contains(text(),'Zip Code')]/../div/input[@type='text'])[5]");
-    public By RefNASPhoneNumber = By.xpath("(//input[@id='PhoneNumber'])[2]");
+	public By referencePhoneNumber = By.xpath("//input[@id='PhoneNumber']");
+	public By referenceAddress1 = By.xpath("//input[@id='FirstLine']");
+	public By referenceZipCode = By.xpath("//label[contains(text(),'Zip Code')]/../div/input[@type='text']");
+	public By refAddress1NAS = By.xpath("(//input[@id='FirstLine'])[5]");
+    public By refZipCodeNAS = By.xpath("(//label[contains(text(),'Zip Code')]/../div/input[@type='text'])[5]");
+    public By refNASPhoneNumber = By.xpath("(//input[@id='PhoneNumber'])[2]");
 
 	// Add Applicant
-	public By AddApplicant = By.xpath("//i[contains(text(),'person_add')]/..");
-	public By RegBCreditType = By.xpath("//button[text()='Yes']");
+	public By addApplicant = By.xpath("//i[contains(text(),'person_add')]/..");
+	public By regBCreditType = By.xpath("//button[text()='Yes']");
 
 	// NAS
-	public By CommunityProperty = By.xpath("//button[text()=' OK ']");
-	public By BorrowerType = By
+	public By communityProperty = By.xpath("//button[text()=' OK ']");
+	public By borrowerType = By
 			.xpath("//label[text()=' Borrower Type ']/../kendo-dropdownlist/span/span[@class='k-select']");
 	public By Spouse = By.xpath("//label[text()=' Spouse ']/../kendo-dropdownlist/span/span[@class='k-select']");
 
 	// ContractDetails
 
-	public By RoundPayment = By.xpath(
+	public By roundPayment = By.xpath(
 			"//*[@id=\"k-panelbar-2-item-default-6\"]/div/div/div[1]/form/div[1]/div[4]/velocity-form-checkbox/div/div/label");
-	public By ContractDetailsLoanAmount = By.xpath(
+	public By contractDetailsLoanAmount = By.xpath(
 			"//div[@class='form-group']/label[contains(text(),'Loan Amount:')]/../kendo-numerictextbox/span/input[contains(@class,'k-input')]");
 
 	// Repayment Method
-	public By RMTitle = By.xpath("//span[contains(text(),'Repayment Method')]");
-	public By RepaymentMethod = By.xpath(
+	public By rmTitle = By.xpath("//span[contains(text(),'Repayment Method')]");
+	public By repaymentMethod = By.xpath(
 			"//div[@id='RepaymentMethodID_column']/div/kendo-dropdownlist/span/span[contains(@class,'k-input')]");
-	public By RMAccountNumber = By.xpath("//input[@id='RepayAccountNumber_maskedInput']");
-	public By RMAccountSuffix = By.xpath("//input[@id='RepayAccountSuffix_maskedInput']");
-	public By RMCompanyName = By.xpath("//input[@id='PayrollCompanyName']");
+	public By rmAccountNumber = By.xpath("//input[@id='RepayAccountNumber_maskedInput']");
+	public By rmAccountSuffix = By.xpath("//input[@id='RepayAccountSuffix_maskedInput']");
+	public By rmCompanyName = By.xpath("//input[@id='PayrollCompanyName']");
 
 	// Payment protection
 
-	public By SalesStatus = By
+	public By salesStatus = By
 			.xpath("///label[contains(text(),'Sales Status')]/..//span/span[contains(@class,'k-input')]");
 
 	// comments
@@ -218,131 +218,131 @@ public class DataEntryPage extends BaseElementPage {
 	public By Comment = By.xpath("//input[@id='NoteText']");
 
 	// CollateralSelection
-	public By CollateralCategory = By.xpath("//label[contains(text(),'Category')]/..//span/span[@class='k-input']");
-	public By CollateralName = By.xpath("//label[contains(text(),'Name')]/..//span/span[@class='k-input']");
+	public By collateralCategory = By.xpath("//label[contains(text(),'Category')]/..//span/span[@class='k-input']");
+	public By collateralName = By.xpath("//label[contains(text(),'Name')]/..//span/span[@class='k-input']");
 
 	// Residential Property Details
-	public By OwnerName = By.id("OwnerName");
-	public By EstimatedValue = By.xpath(
+	public By ownerName = By.id("OwnerName");
+	public By estimatedValue = By.xpath(
 			"//label[contains(text(),'Estimated Value')]/..//span[contains(@class,'k-numeric')]/input[contains(@class,'k-input')]");
 
 	// Mortgage Details
-	public By MortgageDetails = By.xpath("//ul[@role='tablist']/li[3]/span[contains(text(),'Mortgage Details')]");
-	public By LienPosition = By
+	public By mortgageDetails = By.xpath("//ul[@role='tablist']/li[3]/span[contains(text(),'Mortgage Details')]");
+	public By lienPosition = By
 			.xpath("//label[contains(text(),' Lien Position ')]/../kendo-dropdownlist/span/span[@class='k-input']");
-	public By MortgageHolder = By.id("MortgageHolderName");
-	public By MDPhoneNumber = By
+	public By mortgageHolder = By.id("MortgageHolderName");
+	public By mdPhoneNumber = By
 			.xpath("//input[@id='MortgageHolderName']/../../following-sibling::*/div/input[@id='PhoneNumber']");
-	public By MDDateOpen = By
+	public By mdDateOpen = By
 			.xpath("//label[@for='MortgageDateOpened']/../kendo-datepicker/span/kendo-dateinput/span/input");
-	public By MDExistingPI = By.xpath(
+	public By mdExistingPI = By.xpath(
 			"//app-mortgage-details-form/div/div/following-sibling::*/div/following-sibling::*/following-sibling::*/div/label[@for='MortgageExistingPI']/../kendo-numerictextbox/span/input");
-	public By MDExistingPITI = By.xpath(
+	public By mdExistingPITI = By.xpath(
 			"//app-mortgage-details-form/div/div/following-sibling::*/div/following-sibling::*/following-sibling::*/following-sibling::*/div/label[@for='MortgageExistingPITI']/../kendo-numerictextbox/span/input");
-	public By MDMonthlypayment = By.xpath(
+	public By mdMonthlypayment = By.xpath(
 			"//app-mortgage-details-form/div/div/following-sibling::*/div/following-sibling::*/following-sibling::*/following-sibling::*/following-sibling::*/div/label[@for='MortgageMonthlyPayment']/../kendo-numerictextbox/span/input");
-	public By MDIntRate = By.xpath(
+	public By mdIntRate = By.xpath(
 			"//app-mortgage-details-form/div/div/following-sibling::*/div/following-sibling::*/following-sibling::*/following-sibling::*/following-sibling::*/following-sibling::*/div/label[@for='MortgageInterestRate']/../kendo-numerictextbox/span/input");
-	public By MDBalance = By.xpath(
+	public By mdBalance = By.xpath(
 			"//app-mortgage-details-form/div/div/following-sibling::*/div/following-sibling::*/following-sibling::*/following-sibling::*/following-sibling::*/following-sibling::*/following-sibling::*/div/label[@for='MortgageBalance']/../kendo-numerictextbox/span/input");
 	//public By MDPayoff = By.xpath("//app-mortgage-details-form/div/div/following-sibling::*/div/following-sibling::*/following-sibling::*/following-sibling::*/following-sibling::*/following-sibling::*/following-sibling::*/following-sibling::*/div/label[@for='MortgagePayoffAmount']/../kendo-numerictextbox/span/input");
-	public By MDPayoff = By.xpath("//label[@for='MortgagePayoffAmount']/../kendo-numerictextbox/span/input");
-	public By MDAddress1 = By.xpath("//app-mortgage-details-form/div/app-velocity-address/div/div/div/label[text()=' Address 1 ']/../input[@id='FirstLine']");
-	public By MDZipCode = By.xpath("//app-mortgage-details-form/div/app-velocity-address/div[2]/div/div/label[text()=' Zip Code ']/../div/input");
-	public By AddMortgage = By.xpath("//app-mortgage-details/div/div/div/div/div/button[@type='submit']");
+	public By mdPayoff = By.xpath("//label[@for='MortgagePayoffAmount']/../kendo-numerictextbox/span/input");
+	public By mdAddress1 = By.xpath("//app-mortgage-details-form/div/app-velocity-address/div/div/div/label[text()=' Address 1 ']/../input[@id='FirstLine']");
+	public By mdZipCode = By.xpath("//app-mortgage-details-form/div/app-velocity-address/div[2]/div/div/label[text()=' Zip Code ']/../div/input");
+	public By addMortgage = By.xpath("//app-mortgage-details/div/div/div/div/div/button[@type='submit']");
 	
 	//Real Estate Costs
-	public By RealEstateCosts = By.xpath("//ul[@role='tablist']/li[4]/span[contains(text(),'Real Estate Costs')]");
-	public By EscrowPaymentType = By.xpath("//label[text()=' Escrow Payment Type ']/../kendo-dropdownlist/span/span[@class='k-select']");
-	public By CostDescription = By.xpath("//input[@id='CostDescription']");
-	public By RECostPayment = By.xpath("//label[@for='RealEstateCostsMonthlyPayment']/../kendo-numerictextbox/span/input");
+	public By realEstateCosts = By.xpath("//ul[@role='tablist']/li[4]/span[contains(text(),'Real Estate Costs')]");
+	public By escrowPaymentType = By.xpath("//label[text()=' Escrow Payment Type ']/../kendo-dropdownlist/span/span[@class='k-select']");
+	public By costDescription = By.xpath("//input[@id='CostDescription']");
+	public By reCostPayment = By.xpath("//label[@for='RealEstateCostsMonthlyPayment']/../kendo-numerictextbox/span/input");
 	//public By Escrowed= By.xpath("//div/label[@for='IsEscrowedInd27']");
 	public By Escrowed = By.xpath("//span[text()='Escrowed']/parent::*");
-	public By AddRECosts = By.xpath("//*[@id=\"k-tabstrip-tabpanel-3\"]/app-real-estate-costs/div/div/div[3]/div/div/button[2]");
+	public By addRECosts = By.xpath("//*[@id=\"k-tabstrip-tabpanel-3\"]/app-real-estate-costs/div/div/div[3]/div/div/button[2]");
 	
 	//RE insurance
 	
-	public By REInsurance = By.xpath("//ul[@role='tablist']/li[5]/span[@class='k-link' or text()='Insurance']");
-	public By InsPolicyType = By.xpath("//label[text()=' Policy Type ']/../kendo-dropdownlist/span/span[@class='k-select']");
-	public By InsPolicyNo = By.id("PolicyNumber");
-	public By InsExpDate = By.xpath("//label[text()=' Exp Date ']/../kendo-datepicker/span/kendo-dateinput/span/input");
-	public By InsCoverage = By.xpath("//label[text()=' Coverage ']/../kendo-numerictextbox/span/input");
-	public By InsDeductible = By.xpath("//label[text()=' Deductible ']/../kendo-numerictextbox/span/input");
-	public By InsPremium = By.xpath("//label[text()=' Premium ']/../kendo-numerictextbox/span/input");
-	public By InsCompany = By.id("InsuranceCompanyName");
-	public By InsAgent = By.id("InsuranceAgent");
-	public By InsPhone = By.xpath("//app-insurance-form/div/div/div[9]/div/input");
-	public By InsAddress1 = By.xpath("//app-insurance-form/div/app-velocity-address/div/div/div/input[@id='FirstLine']");
-	public By InsZipCode = By.xpath("//app-insurance-form/div/app-velocity-address/div/div/div/div/input");
-	public By AddInsurance = By.xpath("//app-insurance/div/div/div/div/div/button[@type='submit']");
+	public By reInsurance = By.xpath("//ul[@role='tablist']/li[5]/span[@class='k-link' or text()='Insurance']");
+	public By insPolicyType = By.xpath("//label[text()=' Policy Type ']/../kendo-dropdownlist/span/span[@class='k-select']");
+	public By insPolicyNo = By.id("PolicyNumber");
+	public By insExpDate = By.xpath("//label[text()=' Exp Date ']/../kendo-datepicker/span/kendo-dateinput/span/input");
+	public By insCoverage = By.xpath("//label[text()=' Coverage ']/../kendo-numerictextbox/span/input");
+	public By insDeductible = By.xpath("//label[text()=' Deductible ']/../kendo-numerictextbox/span/input");
+	public By insPremium = By.xpath("//label[text()=' Premium ']/../kendo-numerictextbox/span/input");
+	public By insCompany = By.id("InsuranceCompanyName");
+	public By insAgent = By.id("InsuranceAgent");
+	public By insPhone = By.xpath("//app-insurance-form/div/div/div[9]/div/input");
+	public By insAddress1 = By.xpath("//app-insurance-form/div/app-velocity-address/div/div/div/input[@id='FirstLine']");
+	public By insZipCode = By.xpath("//app-insurance-form/div/app-velocity-address/div/div/div/div/input");
+	public By addInsurance = By.xpath("//app-insurance/div/div/div/div/div/button[@type='submit']");
 	
 	//Collateral Owner
 	
-	public By CollateralOwner = By.xpath("//ul[@role='tablist']/li[6]/span[@class='k-link' or text()='Collateral Owners']");
-	public By CollateralOwnerName = By.xpath("//label[text()=' Other Owner Name ']/following-sibling::input[@id='OwnerName']");
-	public By CollOwnerAddress1 = By.xpath("//app-owners-form/div/app-velocity-address/div/div/div/label[text()=' Address 1 ']/following-sibling::input[@id='FirstLine']");
-	public By CollOwnerZipCode = By.xpath("//app-owners-form/div/app-velocity-address/div/div/div/label[text()=' Zip Code ']/../div/input");
-	public By AddCollateralOwner = By.xpath("//app-owners-form/../following-sibling::div/div/div/button[@type='submit']");
+	public By collateralOwner = By.xpath("//ul[@role='tablist']/li[6]/span[@class='k-link' or text()='Collateral Owners']");
+	public By collateralOwnerName = By.xpath("//label[text()=' Other Owner Name ']/following-sibling::input[@id='OwnerName']");
+	public By collOwnerAddress1 = By.xpath("//app-owners-form/div/app-velocity-address/div/div/div/label[text()=' Address 1 ']/following-sibling::input[@id='FirstLine']");
+	public By collOwnerZipCode = By.xpath("//app-owners-form/div/app-velocity-address/div/div/div/label[text()=' Zip Code ']/../div/input");
+	public By addCollateralOwner = By.xpath("//app-owners-form/../following-sibling::div/div/div/button[@type='submit']");
 	
 	
 	
 	//Existing Lien Info
 	
-	public By ExistingLien = By.xpath("//ul[@role='tablist']/li[7]/span[@class='k-link' or text()='Existing Lien Details']");
-	public By LienHolder = By.xpath("//input[@id='LienHolder']");
-	public By ExistLienPosition = By.xpath("//app-existing-lien-details-form/div//div/label[text()=' Lien Position ']/../kendo-dropdownlist/span/span/span");
-	public By ExistLienDesc = By.xpath("//input[@id='Description']");
-	public By ExistLienPhoneNo = By.xpath("//app-existing-lien-details-form/div/div/div/div/label[text()=' Phone Number ']/../input[@id='PhoneNumber']");
-	public By ExistLienFaxNo = By.xpath("//app-existing-lien-details-form/div/div/div/div/label[text()=' Fax Number ']/../input[@id='FaxNumber']");
-	public By ExistLienAccNo = By.xpath("//app-existing-lien-details-form/div/div/div/div/label[text()=' Account Number ']/../input[@id='AccountNumber']");
-	public By ExistLienDateOpen = By.xpath("//app-existing-lien-details-form/div/div/div/div/label[text()=' Date Open ']/../kendo-datepicker/span/kendo-dateinput/span/input");
-	public By ExistLienPI = By.xpath("//app-existing-lien-details-form/div/div/div/div/label[text()=' Existing PI ']/../kendo-numerictextbox/span/input");
-	public By ExistLienPITI = By.xpath("//app-existing-lien-details-form/div/div/div/div/label[text()=' Existing PITI ']/../kendo-numerictextbox/span/input");
-	public By ExistLienPayment = By.xpath("//app-existing-lien-details-form/div/div/div/div/label[text()=' Monthly Payment ']/../kendo-numerictextbox/span/input");
-	public By ExistLienRate = By.xpath("//app-existing-lien-details-form/div/div/div/div/label[text()=' Int. Rate ']/../kendo-numerictextbox/span/input");
-	public By ExistLienBalance = By.xpath("//app-existing-lien-details-form/div/div/div/div/label[text()=' Balance ']/../kendo-numerictextbox/span/input");
-	public By ExistLienPayoff = By.xpath("//app-existing-lien-details-form/div/div/div/div/label[text()=' Pay Off ']/../kendo-numerictextbox/span/input");
-	public By ExistLienDebtSpread = By.xpath("//app-existing-lien-details-form/div/div/div/div/label[text()=' Debt Spread Percentage ']/../kendo-numerictextbox/span/input");
-	public By ExistLienAdd1 = By.xpath("//app-existing-lien-details-form/div/app-velocity-address/div/div/div/label[text()=' Address 1 ']/following-sibling::input[@id='FirstLine']");
-	public By ExistLienZipCode = By.xpath("//app-existing-lien-details-form/div/app-velocity-address/div/div/div/label[text()=' Zip Code ']/../div/input");
-	public By AddExistLien = By.xpath("//app-existing-lien-details-form/../following-sibling::div/div/div/button[@type='submit']");
+	public By existingLien = By.xpath("//ul[@role='tablist']/li[7]/span[@class='k-link' or text()='Existing Lien Details']");
+	public By lienHolder = By.xpath("//input[@id='LienHolder']");
+	public By existLienPosition = By.xpath("//app-existing-lien-details-form/div//div/label[text()=' Lien Position ']/../kendo-dropdownlist/span/span/span");
+	public By existLienDesc = By.xpath("//input[@id='Description']");
+	public By existLienPhoneNo = By.xpath("//app-existing-lien-details-form/div/div/div/div/label[text()=' Phone Number ']/../input[@id='PhoneNumber']");
+	public By existLienFaxNo = By.xpath("//app-existing-lien-details-form/div/div/div/div/label[text()=' Fax Number ']/../input[@id='FaxNumber']");
+	public By existLienAccNo = By.xpath("//app-existing-lien-details-form/div/div/div/div/label[text()=' Account Number ']/../input[@id='AccountNumber']");
+	public By existLienDateOpen = By.xpath("//app-existing-lien-details-form/div/div/div/div/label[text()=' Date Open ']/../kendo-datepicker/span/kendo-dateinput/span/input");
+	public By existLienPI = By.xpath("//app-existing-lien-details-form/div/div/div/div/label[text()=' Existing PI ']/../kendo-numerictextbox/span/input");
+	public By existLienPITI = By.xpath("//app-existing-lien-details-form/div/div/div/div/label[text()=' Existing PITI ']/../kendo-numerictextbox/span/input");
+	public By existLienPayment = By.xpath("//app-existing-lien-details-form/div/div/div/div/label[text()=' Monthly Payment ']/../kendo-numerictextbox/span/input");
+	public By existLienRate = By.xpath("//app-existing-lien-details-form/div/div/div/div/label[text()=' Int. Rate ']/../kendo-numerictextbox/span/input");
+	public By existLienBalance = By.xpath("//app-existing-lien-details-form/div/div/div/div/label[text()=' Balance ']/../kendo-numerictextbox/span/input");
+	public By existLienPayoff = By.xpath("//app-existing-lien-details-form/div/div/div/div/label[text()=' Pay Off ']/../kendo-numerictextbox/span/input");
+	public By existLienDebtSpread = By.xpath("//app-existing-lien-details-form/div/div/div/div/label[text()=' Debt Spread Percentage ']/../kendo-numerictextbox/span/input");
+	public By existLienAdd1 = By.xpath("//app-existing-lien-details-form/div/app-velocity-address/div/div/div/label[text()=' Address 1 ']/following-sibling::input[@id='FirstLine']");
+	public By existLienZipCode = By.xpath("//app-existing-lien-details-form/div/app-velocity-address/div/div/div/label[text()=' Zip Code ']/../div/input");
+	public By addExistLien = By.xpath("//app-existing-lien-details-form/../following-sibling::div/div/div/button[@type='submit']");
 	
 	//Lien Filing
 	
-	public By LienFiling = By.xpath("//ul[@role='tablist']/li[8]/span[@class='k-link' or text()='Lien Filing']");
-	public By LienFilingYes = By.xpath("//app-lien-filing/div/div/div[1]/div/div[2]/app-segment-button/div/label[1]");
-	public By WhoFiled = By.xpath("//input[@id='LienFiledBy']");
+	public By lienFiling = By.xpath("//ul[@role='tablist']/li[8]/span[@class='k-link' or text()='Lien Filing']");
+	public By lienFilingYes = By.xpath("//app-lien-filing/div/div/div[1]/div/div[2]/app-segment-button/div/label[1]");
+	public By whoFiled = By.xpath("//input[@id='LienFiledBy']");
 	//public By DateFiled = By.xpath("//label[text()=' Date Filed ']/../kendo-datepicker/span/kendo-dateinput/span/input");
-	public By DateFiled = By.xpath("//label[text()=' Date Filed ']/../kendo-datepicker/span/span/span");
+	public By dateFiled = By.xpath("//label[text()=' Date Filed ']/../kendo-datepicker/span/span/span");
 	//public By DateReceived = By.xpath("//label[text()=' Date Received ']/../kendo-datepicker/span/kendo-dateinput/span/input");
-	public By TodaysDate = By.xpath("//span[@class='k-today']");
-	public By DateReceived = By.xpath("//label[text()=' Date Received ']/../kendo-datepicker/span/span/span");
+	public By todaysDate = By.xpath("//span[@class='k-today']");
+	public By dateReceived = By.xpath("//label[text()=' Date Received ']/../kendo-datepicker/span/span/span");
 	
 	
 	// Titled Goods Collateral KBB details
 
-	public By KBBYear = By.xpath("//label[@for='BlueBookModelYear']/../kendo-dropdownlist/span/span[@class='k-input']");
-	public By KBBMake = By.xpath("//label[@for='BlueBookMake']/../kendo-dropdownlist/span/span[@class='k-input']");
-	public By KBBModel = By.xpath("//label[@for='BlueBookModel']/../kendo-dropdownlist/span/span[@class='k-input']");
-	public By KBBSubModel = By
+	public By kbbYear = By.xpath("//label[@for='BlueBookModelYear']/../kendo-dropdownlist/span/span[@class='k-input']");
+	public By kbbMake = By.xpath("//label[@for='BlueBookMake']/../kendo-dropdownlist/span/span[@class='k-input']");
+	public By kbbModel = By.xpath("//label[@for='BlueBookModel']/../kendo-dropdownlist/span/span[@class='k-input']");
+	public By kbbSubModel = By
 			.xpath("//label[@for='BlueBookSubModel']/../kendo-dropdownlist/span/span[@class='k-input']");
-	public By KBBBodyStyle = By
+	public By kbbBodyStyle = By
 			.xpath("//label[@for='BlueBookBodyStyle']/../kendo-dropdownlist/span/span[@class='k-input']");
-	public By KBBEngineSize = By.xpath("//label[@for='BlueBookEngineSize']/../kendo-numerictextbox/span/input");
-	public By KBBGetOptionsbttn = By.xpath("//button[text()='Get Options']");
-	public By KBBGetPricing = By.xpath("//button[@id='cmdGetPricing']");
-	public By KBBGetPricingYesbttn = By.xpath("//button[text()=' Yes ']");
+	public By kbbEngineSize = By.xpath("//label[@for='BlueBookEngineSize']/../kendo-numerictextbox/span/input");
+	public By kbbGetOptionsbttn = By.xpath("//button[text()='Get Options']");
+	public By kbbGetPricing = By.xpath("//button[@id='cmdGetPricing']");
+	public By kbbGetPricingYesbttn = By.xpath("//button[text()=' Yes ']");
 
 	// click Next, Submit, Save
-	public By Nextbttn = By.xpath("//button[contains(text(),'Next')]");
-	public By Submitbttn = By.xpath("//button[contains(text(),'Submit')]");
+	public By nextBttn = By.xpath("//button[contains(text(),'Next')]");
+	public By submitbttn = By.xpath("//button[contains(text(),'Submit')]");
 	public By Save = By.xpath("//button[text()='Save']");
 
 	// close action status window
-	public By Closebttn = By.xpath("//button[contains(text(),'Close') and @class=' ml-auto btn btn-secondary']");
+	public By closeBttn = By.xpath("//button[contains(text(),'Close') and @class=' ml-auto btn btn-secondary']");
 	
 	//unsaved changes
-	public By UnsavedChangesYes = By.xpath("//button[text()=' Yes ']");
+	public By unsavedChangesYes = By.xpath("//button[text()=' Yes ']");
 
 	// Data Entry page0
 
@@ -372,29 +372,29 @@ public class DataEntryPage extends BaseElementPage {
 		 */
 	}
 
-	public void enterRequestedAmt(String ReqAmount) {
+	public void enterRequestedAmt(String reqAmount) {
 		System.out.println("inside the method enter amount");
 		// try {
 		element.sync().pause(5);
-		element.sync().waitForElement(RequestedAmt);
-		element.click(RequestedAmt, "");
-		element.sendKeys(RequestedAmt, ReqAmount, "Enter RequestedAmt :" + ReqAmount);
-		element.sendKeys(RequestedAmt, ReqAmount, "Enter RequestedAmt");
+		element.sync().waitForElement(requestedAmt);
+		element.click(requestedAmt, "");
+		element.sendKeys(requestedAmt, reqAmount, "Enter RequestedAmt :" + reqAmount);
+		//element.sendKeys(requestedAmt, reqAmount, "Enter RequestedAmt");
 	}
 	/*
 	 * catch (InterruptedException e) { // TODO Auto-generated catch block
 	 * e.printStackTrace(); }
 	 */
 
-	public void enterCashPriceIV(String cashpriceiv) {
+	public void enterCashPriceIV(String cashPriceiv) {
 		/*
 		 * try { Thread.sleep(10000);
 		 */
 		element.sync().pause(10);
 		System.out.println("enter cash price");
-		element.click(CashPriceIV, "");
+		element.click(cashPriceIV, "");
 		System.out.println("cursor on cash price");
-		element.sendKeys(CashPriceIV, cashpriceiv, "");
+		element.sendKeys(cashPriceIV, cashPriceiv, "");
 	}
 	/*
 	 * catch (InterruptedException e) { // TODO Auto-generated catch block
@@ -414,12 +414,12 @@ public class DataEntryPage extends BaseElementPage {
 		element.sendKeys(Dealer, dealer, "Enter Dealer" + dealer);
 	}
 
-	public void selectdeliverymethod(String deliverymethod) {
+	public void selectdeliverymethod(String deliveryMethod) {
 		element.sync().pause(5);
-		String methodstring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='" + deliverymethod
+		String methodstring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='" + deliveryMethod
 				+ "']";
 		By selectdeliverymethod = By.xpath(methodstring);
-		element.click(DeliveryMethodDropDown, "Click on Delivery Method  DropDown");
+		element.click(deliveryMethodDropDown, "Click on Delivery Method  DropDown");
 		element.click(selectdeliverymethod, "");
 	}
 
@@ -430,69 +430,69 @@ public class DataEntryPage extends BaseElementPage {
 		element.sendKeys(SSN, ssn, "Enter SSN" + ssn);
 	}
 
-	public void enterFirstName(String firstname) {
-		element.click(FirstName, "click First Name" + firstname);
+	public void enterFirstName(String first_Name) {
+		element.click(firstName, "click First Name" + first_Name);
 		/*
 		 * try { Thread.sleep(15000);
 		 */
 		element.sync().pause(15);
-		element.click(CopyDataClosebttn, "Close the Copy Data page");
+		element.click(copyDataClosebttn, "Close the Copy Data page");
 		element.sync().pause(10);
 		/*
 		 * Thread.sleep(5000); } catch (InterruptedException e) { // TODO
 		 * Auto-generated catch block e.printStackTrace(); }
 		 */
-		element.sync().waitForElement(FirstName);
-		element.sendKeys(FirstName, firstname, "Enter FirstName");
+		element.sync().waitForElement(firstName);
+		element.sendKeys(firstName, first_Name, "Enter FirstName");
 	}
 
-	public void enterMiddleName(String middlename) {
+	public void enterMiddleName(String middle_Name) {
 
-		element.sendKeys(MiddleName, middlename, "Enter MiddleName :" + middlename);
+		element.sendKeys(middleName, middle_Name, "Enter MiddleName :" + middle_Name);
 	}
 
-	public void enterLastName(String lastname) {
-		element.sendKeys(LastName, lastname, "Enter lastname:" + lastname);
+	public void enterLastName(String last_Name) {
+		element.sendKeys(lastName, last_Name, "Enter lastname:" + last_Name);
 	}
 
 	public void clickSaveBttn() {
 		element.sync().pause(5);
-		element.click(Savebttn, "Click on Save button");
+		element.click(saveBttn, "Click on Save button");
 		System.out.println("Tried clicking Save");
 	}
 
 	// Applicant Summary
-	public void selectInstReln(String instrel) {
+	public void selectInstReln(String instRel) {
 
 		// try {
-		String relationstring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='" + instrel
+		String relationString = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='" + instRel
 				+ "']";
-		By selectreln = By.xpath(relationstring);
+		By selectReln = By.xpath(relationString);
 		element.sync().pause(10);
-		element.click(InstRelationship, "Click on Inst Reln DropDown");
-		element.click(selectreln, "");
+		element.click(instRelationship, "Click on Inst Reln DropDown");
+		element.click(selectReln, "");
 		/*
 		 * } catch (InterruptedException e) { // TODO Auto-generated catch block
 		 * e.printStackTrace(); }
 		 */
 	}
 
-	public void enterDateOfBirth(String dateofbirth) {
-		element.jsExecute().scrollToElement(InstRelationship);
+	public void enterDateOfBirth(String dateOfBirth) {
+		element.jsExecute().scrollToElement(instRelationship);
 		System.out.println("Scrolled until DOB element");
 		element.click(DOB, "click on DOB");
-		element.sendKeys(DOB, dateofbirth, "Enter dateofbirth:" + dateofbirth);
+		element.sendKeys(DOB, dateOfBirth, "Enter dateofbirth:" + dateOfBirth);
 	}
 
-	public void selectMaritalStatus(String maritalstatus) {
+	public void selectMaritalStatus(String maritalStatus) {
 
 		// try {
 		String maritalstatusstring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='"
-				+ maritalstatus + "']";
+				+ maritalStatus + "']";
 		By selectmaritalstatus = By.xpath(maritalstatusstring);
 		// Thread.sleep(20000);
-		element.sync().waitForElement(MaritalstatusDropDown);
-		element.click(MaritalstatusDropDown, "Click on Marital status DropDown");
+		element.sync().waitForElement(maritalstatusDropDown);
+		element.click(maritalstatusDropDown, "Click on Marital status DropDown");
 		element.click(selectmaritalstatus, "");
 	}
 
@@ -500,11 +500,11 @@ public class DataEntryPage extends BaseElementPage {
 	 * catch (InterruptedException e) { // TODO Auto-generated catch block
 	 * e.printStackTrace(); } }
 	 */
-	public void enterDriversLicense(String driverslicense) {
+	public void enterDriversLicense(String driversLicense) {
 
-		element.jsExecute().scrollToElement(MaritalstatusDropDown);
-		element.click(DLNumber, "click on DL");
-		element.sendKeys(DLNumber, driverslicense, "Enter DL Number:" + driverslicense);
+		element.jsExecute().scrollToElement(maritalstatusDropDown);
+		element.click(dlNumber, "click on DL");
+		element.sendKeys(dlNumber, driversLicense, "Enter DL Number:" + driversLicense);
 	}
 
 	public void enterOccupation(String occupation) {
@@ -514,29 +514,29 @@ public class DataEntryPage extends BaseElementPage {
 		element.sendKeys(Occupation, occupation, "Enter Occupation:" + occupation);
 	}
 
-	public void enterOccupationLength(String occupationlength) {
+	public void enterOccupationLength(String occupation_Length) {
 
-		element.click(OccupationLength, "click on occupationlength");
+		element.click(occupationLength, "click on occupationlength");
 		System.out.println("clicked field occupation length");
-		element.sendKeys(OccupationLength, occupationlength, "Enter Occupationlebgth:" + occupationlength);
+		element.sendKeys(occupationLength, occupation_Length, "Enter Occupationlebgth:" + occupation_Length);
 	}
 
 	public void SelectPreferredMethod(String preferred) {
-		element.jsExecute().scrollToElement(DLNumber);
+		element.jsExecute().scrollToElement(dlNumber);
 		String preferredmethodstring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='"
 				+ preferred + "']";
 		By selectpreferredmethod = By.xpath(preferredmethodstring);
-		element.click(PreferredMethod, "Click on Preferred DropDown");
+		element.click(preferredMethod, "Click on Preferred DropDown");
 		element.click(selectpreferredmethod, "");
 	}
 
-	public void enterHomePhone(String phoneno) {
-		element.click(HomePhone, "click phone");
-		element.sendKeys(HomePhone, phoneno, "enter Phone Num");
+	public void enterHomePhone(String phoneNo) {
+		element.click(homePhone, "click phone");
+		element.sendKeys(homePhone, phoneNo, "enter Phone Num");
 	}
 
 	public void selectfavcontact() {
-		element.click(ContactFavorite, "select fav contact");
+		element.click(contactFavorite, "select fav contact");
 	}
 
 	public void enterEmail1(String email1) {
@@ -551,15 +551,15 @@ public class DataEntryPage extends BaseElementPage {
 
 	}
 
-	public void enterFirstName2(String firstname2) {
+	public void enterFirstName2(String first_Name2) {
 		element.jsExecute().scrollToElement(SSN2);
-		element.click(FirstName2, "click name");
-		element.sendKeys(FirstName2, firstname2, "enter name");
+		element.click(firstName2, "click name");
+		element.sendKeys(firstName2, first_Name2, "enter name");
 	}
 
-	public void enterLastName2(String lastname2) {
-		element.click(LastName2, "click name");
-		element.sendKeys(LastName2, lastname2, "enter lastname2");
+	public void enterLastName2(String last_name2) {
+		element.click(lastName2, "click name");
+		element.sendKeys(lastName2, last_name2, "enter lastname2");
 	}
 
 	// Address section
@@ -568,14 +568,14 @@ public class DataEntryPage extends BaseElementPage {
 		element.click(Address, "Click on Address");
 	}
 
-	public void selectAddressType(String addtype) {
+	public void selectAddressType(String addType) {
 
 		// try {
-		String addtypestring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='" + addtype
+		String addtypestring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='" + addType
 				+ "']";
 		By selecttype = By.xpath(addtypestring);
 		element.sync().pause(10);
-		element.click(AddressType, "Click on Address Type DropDown");
+		element.click(addressType, "Click on Address Type DropDown");
 		element.click(selecttype, "");
 
 	}
@@ -602,31 +602,31 @@ public class DataEntryPage extends BaseElementPage {
 		String addstatusstring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='" + addstatus
 				+ "']";
 		By selectstatus = By.xpath(addstatusstring);
-		element.click(AddressStatus, "Click on Address Status DropDown");
+		element.click(addressStatus, "Click on Address Status DropDown");
 		element.click(selectstatus, "");
 	}
 
 	public void enterLengthyrs(String yrs) {
-		element.click(Lengthyrs, "click length");
-		element.sendKeys(Lengthyrs, yrs, "enter yrs");
+		element.click(lengthYrs, "click length");
+		element.sendKeys(lengthYrs, yrs, "enter yrs");
 	}
 
-	public void enterMonthlyPayment(String monthlypayment) {
-		element.click(MonthlyPayment, "click Payment");
-		element.sendKeys(MonthlyPayment, monthlypayment, "enter payment");
+	public void enterMonthlyPayment(String monthly_payment) {
+		element.click(monthlyPayment, "click Payment");
+		element.sendKeys(monthlyPayment, monthly_payment, "enter payment");
 	}
 
-	public void enterAddDesc(String adddesc) {
+	public void enterAddDesc(String addDesc) {
 
-		element.click(AddressDesc, "click desc");
-		element.sendKeys(AddressDesc, adddesc, "enter desc");
+		element.click(addressDesc, "click desc");
+		element.sendKeys(addressDesc, addDesc, "enter desc");
 
 	}
 
 	public void enterAddress1(String add1) {
-		element.jsExecute().scrollToElement(Address1);
-		element.click(Address1, "click add1");
-		element.sendKeys(Address1, add1, "enter add1");
+		element.jsExecute().scrollToElement(address1);
+		element.click(address1, "click add1");
+		element.sendKeys(address1, add1, "enter add1");
 	}
 
 	public void enterZipCode(String zipcode) {
@@ -640,7 +640,7 @@ public class DataEntryPage extends BaseElementPage {
 		// try {
 		// Thread.sleep(10000);
 		element.sync().pause(10);
-		element.click(AddButton, "Add section details");
+		element.click(addButton, "Add section details");
 		// Thread.sleep(5000);
 	}
 	/*
@@ -665,62 +665,62 @@ public class DataEntryPage extends BaseElementPage {
 	public void enterEmployername(String employername) {
 		try {
 			Thread.sleep(5000);
-			element.click(EmployerName, "click employer name");
-			element.sendKeys(EmployerName, employername, "enter employername");
+			element.click(employerName, "click employer name");
+			element.sendKeys(employerName, employername, "enter employername");
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
 
-	public void enterEmployerAddress(String empaddress) {
-		element.sendKeys(EmpAdd1, empaddress, "enter address");
+	public void enterEmployerAddress(String emp_address) {
+		element.sendKeys(empAdd1, emp_address, "enter address");
 		System.out.println("Address displayed");
 	}
 
-	public void enterEmployerZipCode(String empzipcode) {
+	public void enterEmployerZipCode(String emp_Zipcode) {
 
 		System.out.println("enter zipcode function");
-		element.jsExecute().click(EmpZipCode);
+		element.jsExecute().click(empZipCode);
 		element.click(CTRLM, "click Ctrl+M");
 		System.out.println("clicked on CTRL+M");
 
-		element.click(EmpZipCode, "click zipcode");
-		element.sendKeys(EmpZipCode, empzipcode, "enter zipcode");
-		element.click(EmpCity, "click City");
+		element.click(empZipCode, "click zipcode");
+		element.sendKeys(empZipCode, emp_Zipcode, "enter zipcode");
+		element.click(empCity, "click City");
 	}
 
 	public void enterEmployerSupervisor(String supervisor) {
-		element.jsExecute().scrollToElement(EmployerName);
-		element.click(EmpSupervisor, "click on Supervisor");
-		element.sendKeys(EmpSupervisor, supervisor, "enter supervisor name");
+		element.jsExecute().scrollToElement(employerName);
+		element.click(empSupervisor, "click on Supervisor");
+		element.sendKeys(empSupervisor, supervisor, "enter supervisor name");
 	}
 
-	public void selectEmploymentType(String emptype) {
+	public void selectEmploymentType(String emp_type) {
 
-		String emptypestring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='" + emptype
+		String emptypestring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='" + emp_type
 				+ "']";
 		By selectemptype = By.xpath(emptypestring);
-		element.click(EmpType, "Click on Type dropdown");
+		element.click(empType, "Click on Type dropdown");
 		element.click(selectemptype, "");
 	}
 
 	public void enterEmployerLengthyrs(String emplenyrs) {
-		element.jsExecute().scrollToElement(EmployerName);
-		element.click(EmployerLengthYr, "click length");
-		element.sendKeys(EmployerLengthYr, emplenyrs, "enter yrs");
+		element.jsExecute().scrollToElement(employerName);
+		element.click(employerLengthYr, "click length");
+		element.sendKeys(employerLengthYr, emplenyrs, "enter yrs");
 	}
 
 	public void enterEmployerPosition(String position) {
-		element.sendKeys(EmployerPosition, position, "enter Position");
+		element.sendKeys(employerPosition, position, "enter Position");
 	}
 
-	public void enterEmployerAmount(String empamount)
+	public void enterEmployerAmount(String emp_amount)
 
 	{
-		element.jsExecute().scrollToElement(EmployerLengthYr);
-		element.click(EmployerAmount, "click amount");
-		element.sendKeys(EmployerAmount, empamount, "enter amount");
+		element.jsExecute().scrollToElement(employerLengthYr);
+		element.click(employerAmount, "click amount");
+		element.sendKeys(employerAmount, emp_amount, "enter amount");
 		element.click(Frequency, "click Frequency to populate Monthly Payment data");
 		element.click(CTRLM, "click CTRL+M");
 	}
@@ -745,33 +745,33 @@ public class DataEntryPage extends BaseElementPage {
 	}
 
 	public void clickAddNewIncome() {
-		element.click(AddNewIncome, "Add New");
+		element.click(addNewIncome, "Add New");
 	}
 
-	public void selectIncomeType(String incometype) {
-		element.jsExecute().scrollToElement(IncomeSource);
-		String incometypestring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='" + incometype
+	public void selectIncomeType(String income_type) {
+		element.jsExecute().scrollToElement(incomeSource);
+		String incometypestring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='" + income_type
 				+ "']";
 		By selectincometype = By.xpath(incometypestring);
-		element.click(IncomeType, "Click on Type dropdown");
+		element.click(incomeType, "Click on Type dropdown");
 		element.click(selectincometype, "");
 	}
 
-	public void enterSourceDescription(String sourcedescription) {
-		element.click(IncomeSource, "click on source");
-		element.sendKeys(IncomeSource, sourcedescription, "enter source");
+	public void enterSourceDescription(String source_description) {
+		element.click(incomeSource, "click on source");
+		element.sendKeys(incomeSource, source_description, "enter source");
 	}
 
 	public void enterAmount(String amount) {
-		element.click(IncomeAmount, "click on Amount");
-		element.sendKeys(IncomeAmount, amount, "enter amount");
-		element.click(IncomeSource, "click to calculate monthly amount");
+		element.click(incomeAmount, "click on Amount");
+		element.sendKeys(incomeAmount, amount, "enter amount");
+		element.click(incomeSource, "click to calculate monthly amount");
 	}
 
 	public void enterNASAmount(String amountNAS) {
-		element.click(IncomeAmountNAS, "click on Amount");
-		element.sendKeys(IncomeAmountNAS, amountNAS, "enter amount");
-		element.click(IncomeSource, "click to calculate monthly amount");
+		element.click(incomeAmountNAS, "click on Amount");
+		element.sendKeys(incomeAmountNAS, amountNAS, "enter amount");
+		element.click(incomeSource, "click to calculate monthly amount");
 	}
 	// Assets
 
@@ -786,13 +786,13 @@ public class DataEntryPage extends BaseElementPage {
 
 	}
 
-	public void selectAssetType(String assettype) {
+	public void selectAssetType(String asset_type) {
 		try {
 			Thread.sleep(5000);
 			String assettypestring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='"
-					+ assettype + "']";
+					+ asset_type + "']";
 			By selectassettype = By.xpath(assettypestring);
-			element.click(AssetType, "Click on Type dropdown");
+			element.click(assetType, "Click on Type dropdown");
 			element.click(selectassettype, "");
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
@@ -802,15 +802,15 @@ public class DataEntryPage extends BaseElementPage {
 	}
 
 	public void enterAssetDescription(String assetdescription) {
-		element.sendKeys(AssetDescription, assetdescription, "asset desc");
+		element.sendKeys(assetDescription, assetdescription, "asset desc");
 	}
 
 	public void enterAssetCashMarketValue(String cashmarketvalue) {
-		element.sendKeys(AssetCashMarketValue, cashmarketvalue, "cash market value");
+		element.sendKeys(assetCashMarketValue, cashmarketvalue, "cash market value");
 	}
 
 	public void enterAssetLoanBalance(String loanbalance) {
-		element.sendKeys(AssetLoanBalance, loanbalance, "cash market value");
+		element.sendKeys(assetLoanBalance, loanbalance, "cash market value");
 	}
 
 	/*public void enterAssetAccountNumber(String assetaccountnumber) {
@@ -829,15 +829,15 @@ public class DataEntryPage extends BaseElementPage {
 	
 
 	public void enterAssetInstitution(String institution) {
-		element.jsExecute().scrollToElement(AssetDateOpened);
-		element.sendKeys(AssetInstitution, institution, "enter institute name");
+		element.jsExecute().scrollToElement(assetDateOpened);
+		element.sendKeys(assetInstitution, institution, "enter institute name");
 	}
 
-	public void enterAssetDateOpened(String assetdate) {
+	public void enterAssetDateOpened(String assetDate) {
 		try {
 			Thread.sleep(1000);
-			element.click(AssetDateOpened, "to enter date");
-			element.sendKeys(AssetDateOpened, assetdate, "asset date");
+			element.click(assetDateOpened, "to enter date");
+			element.sendKeys(assetDateOpened, assetDate, "asset date");
 
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
@@ -847,12 +847,12 @@ public class DataEntryPage extends BaseElementPage {
 	}
 
 	public void enterAssetAddress1(String address1) {
-		element.sendKeys(AssetAddress1, address1, "Address1");
+		element.sendKeys(assetAddress1, address1, "Address1");
 	}
 
-	public void enterAssetZipCode(String assetzipcode) {
-		element.sendKeys(AssetZipCode, assetzipcode, "asset zipcode");
-		element.click(AssetAddress1, "to populate city");
+	public void enterAssetZipCode(String asset_zipcode) {
+		element.sendKeys(assetZipCode, asset_zipcode, "asset zipcode");
+		element.click(assetAddress1, "to populate city");
 	}
 
 	// Liability
@@ -869,13 +869,13 @@ public class DataEntryPage extends BaseElementPage {
 
 	}
 
-	public void selectLiabilityType(String liabilitytype) {
+	public void selectLiabilityType(String liability_type) {
 		try {
 			Thread.sleep(10000);
 			String liabilitytypestring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='"
-					+ liabilitytype + "']";
+					+ liability_type + "']";
 			By selectliabilitytype = By.xpath(liabilitytypestring);
-			element.click(LiabilityType, "Click on Type dropdown");
+			element.click(liabilityType, "Click on Type dropdown");
 			element.click(selectliabilitytype, "");
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
@@ -883,23 +883,23 @@ public class DataEntryPage extends BaseElementPage {
 		}
 	}
 
-	public void enterLiabilityDescription(String liabilitydescription) {
-		element.sendKeys(LiabilityDescription, liabilitydescription, "liability desc");
+	public void enterLiabilityDescription(String liability_description) {
+		element.sendKeys(liabilityDescription, liability_description, "liability desc");
 	}
 
-	public void enterLiabilityCashMarketValue(String liabilitycashmarketvalue) {
-		element.sendKeys(LiabilityCashMarketValue, liabilitycashmarketvalue, "cash market value");
+	public void enterLiabilityCashMarketValue(String liability_cashmarketvalue) {
+		element.sendKeys(liabilityCashMarketValue, liability_cashmarketvalue, "cash market value");
 	}
 
-	public void enterLiabilityLoanBalance(String liabilityloanbalance) {
-		element.sendKeys(LiabilityLoanBalance, liabilityloanbalance, "loan balance");
+	public void enterLiabilityLoanBalance(String liability_loanbalance) {
+		element.sendKeys(liabilityLoanBalance, liability_loanbalance, "loan balance");
 	}
 
-	public void enterLiabilityAccountNumber(String liabilityaccountnumber) {
+	public void enterLiabilityAccountNumber(String liability_accountnumber) {
 		try {
-			element.click(LiabilityAccountNumber, "click account number");
+			element.click(liabilityAccountNumber, "click account number");
 			Thread.sleep(5000);
-			element.sendKeys(LiabilityAccountNumber, liabilityaccountnumber, "liability account number");
+			element.sendKeys(liabilityAccountNumber, liability_accountnumber, "liability account number");
 			Thread.sleep(2000);
 		} catch (InterruptedException e) {
 			System.out.println("Liability accnt number not entered");
@@ -908,24 +908,24 @@ public class DataEntryPage extends BaseElementPage {
 
 	}
 
-	public void enterLiabilityInstitution(String liabilityinstitution) {
-		element.jsExecute().scrollToElement(LiabilityDateOpened);
-		element.sendKeys(LiabilityInstitution, liabilityinstitution, "enter institute name");
+	public void enterLiabilityInstitution(String liability_Institution) {
+		element.jsExecute().scrollToElement(liabilityDateOpened);
+		element.sendKeys(liabilityInstitution, liability_Institution, "enter institute name");
 	}
 
-	public void enterLiabilityDateOpened(String liabilitydate) {
-		element.click(LiabilityDateOpened, "date opened");
-		element.sendKeys(LiabilityDateOpened, liabilitydate, "liability date");
+	public void enterLiabilityDateOpened(String liability_date) {
+		element.click(liabilityDateOpened, "date opened");
+		element.sendKeys(liabilityDateOpened, liability_date, "liability date");
 	}
 
-	public void enterLiabilityAddress1(String liabilityaddress1) {
-		element.sendKeys(LiabilityAddress1, liabilityaddress1, "Address1");
+	public void enterLiabilityAddress1(String liability_address1) {
+		element.sendKeys(liabilityAddress1, liability_address1, "Address1");
 	}
 
-	public void enterLiabilityZipCode(String liabilityzipcode) {
+	public void enterLiabilityZipCode(String liability_zipcode) {
 
-		element.sendKeys(LiabilityZipCode, liabilityzipcode, " zipcode");
-		element.click(LiabilityAddress1, "to populate city");
+		element.sendKeys(liabilityZipCode, liability_zipcode, " zipcode");
+		element.click(liabilityAddress1, "to populate city");
 	}
 
 	// References
@@ -943,13 +943,13 @@ public class DataEntryPage extends BaseElementPage {
 
 	}
 
-	public void selectReferenceType(String referencetype) {
+	public void selectReferenceType(String reference_Type) {
 		try {
 			Thread.sleep(5000);
 			String referencetypestring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='"
-					+ referencetype + "']";
+					+ reference_Type + "']";
 			By selectreferencetype = By.xpath(referencetypestring);
-			element.click(ReferenceType, "Click on Type dropdown");
+			element.click(referenceType, "Click on Type dropdown");
 			element.click(selectreferencetype, "");
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
@@ -963,7 +963,7 @@ public class DataEntryPage extends BaseElementPage {
 			String referencerelnstring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='"
 					+ relationship + "']";
 			By selectrelntype = By.xpath(referencerelnstring);
-			element.click(ReferenceRelationship, "Click on Type dropdown");
+			element.click(referenceRelationship, "Click on Type dropdown");
 			element.click(selectrelntype, "");
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
@@ -971,40 +971,40 @@ public class DataEntryPage extends BaseElementPage {
 		}
 	}
 
-	public void enterReferenceFirstName(String referencefirstname) {
-		element.sendKeys(ReferenceFirstName, referencefirstname, "firstname");
+	public void enterReferenceFirstName(String reference_firstname) {
+		element.sendKeys(referenceFirstName, reference_firstname, "firstname");
 	}
 
-	public void enterReferenceLastName(String referencelastname) {
-		element.sendKeys(ReferenceLastName, referencelastname, "lastname");
+	public void enterReferenceLastName(String reference_lastname) {
+		element.sendKeys(referenceLastName, reference_lastname, "lastname");
 	}
 
 	public void enterReferenceDOB(String referencedob) {
-		element.jsExecute().scrollToElement(ReferenceFirstName);
-		element.sendKeys(ReferenceDOB, referencedob, "dob");
+		element.jsExecute().scrollToElement(referenceFirstName);
+		element.sendKeys(referenceDOB, referencedob, "dob");
 	}
 
-	public void enterReferencePhoneNumber(String referencephonenumber) {
-		element.sendKeys(ReferencePhoneNumber, referencephonenumber, "phone");
+	public void enterReferencePhoneNumber(String reference_phonenumber) {
+		element.sendKeys(referencePhoneNumber, reference_phonenumber, "phone");
 	}
-	public void enterRefNASPhoneNumber(String refnasphonenumber) {
-		element.sendKeys(RefNASPhoneNumber, refnasphonenumber, "phone");
-	}
-
-	public void enterReferenceAddress1(String referenceaddress1) {
-		element.sendKeys(ReferenceAddress1, referenceaddress1, "Address1");
+	public void enterRefNASPhoneNumber(String ref_nasphonenumber) {
+		element.sendKeys(refNASPhoneNumber, ref_nasphonenumber, "phone");
 	}
 
-	public void enterReferenceZipCode(String referencezipcode) {
-		element.sendKeys(ReferenceZipCode, referencezipcode, "reference zipcode");
-		element.click(ReferenceAddress1, "");
+	public void enterReferenceAddress1(String reference_address1) {
+		element.sendKeys(referenceAddress1, reference_address1, "Address1");
+	}
+
+	public void enterReferenceZipCode(String reference_zipcode) {
+		element.sendKeys(referenceZipCode, reference_zipcode, "reference zipcode");
+		element.click(referenceAddress1, "");
 	}
 
 	// Add applicant
 	public void addApplicant() {
 		try {
 			Thread.sleep(5000);
-			element.click(AddApplicant, "add new applicant");
+			element.click(addApplicant, "add new applicant");
 			element.sync().pause(3);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
@@ -1015,85 +1015,85 @@ public class DataEntryPage extends BaseElementPage {
 	public void NASCommunityProperty() {
 		//element.sync().elementToBeClickable(CommunityProperty);
 		element.sync().pause(5);
-		element.click(CommunityProperty, "click OK");
+		element.click(communityProperty, "click OK");
 		System.out.println("Clicked OK on Community Property");
 	}
 
-	public void enterNASAddress1(String nasadd1)
+	public void enterNASAddress1(String nas_add1)
 	{
-		element.jsExecute().scrollToElement(Address1NAS);
-		element.click(Address1NAS, "");
-		element.sendKeys(Address1NAS, nasadd1, "");
+		element.jsExecute().scrollToElement(address1NAS);
+		element.click(address1NAS, "");
+		element.sendKeys(address1NAS, nas_add1, "");
 	}
 	public void enterNASZipCode(String naszc)
 	{
-		element.jsExecute().scrollToElement(ZipCodeNAS);
-		element.click(ZipCodeNAS, "");
-		element.sendKeys(ZipCodeNAS, naszc, "");
-		element.click(Address1NAS, "populate city");
+		element.jsExecute().scrollToElement(zipcodeNAS);
+		element.click(zipcodeNAS, "");
+		element.sendKeys(zipcodeNAS, naszc, "");
+		element.click(address1NAS, "populate city");
 		element.sync().pause(3);
 	}
 	
-	public void enterNASEmpAddress1(String empnasadd1)
+	public void enterNASEmpAddress1(String emp_nasadd1)
 	{
-		element.click(EmpAddress1NAS, "");
-		element.sendKeys(EmpAddress1NAS, empnasadd1, "");
+		element.click(empAddress1NAS, "");
+		element.sendKeys(empAddress1NAS, emp_nasadd1, "");
 	}
 		
-		public void enterNASEmpZipCode(String empzipcodenas)
+		public void enterNASEmpZipCode(String emp_zipcodenas)
 		{
 
 			System.out.println("enter zipcode function");
-			element.jsExecute().click(EmpZipCodeNAS);
+			element.jsExecute().click(empZipCodeNAS);
 			element.click(CTRLM, "click Ctrl+M");
 			System.out.println("clicked on CTRL+M");
 
-			element.click(EmpZipCode, "click zipcode");
-			element.sendKeys(EmpZipCodeNAS, empzipcodenas, "enter zipcode");
-			element.click(EmpAddress1NAS, "click City");
+			element.click(empZipCode, "click zipcode");
+			element.sendKeys(empZipCodeNAS, emp_zipcodenas, "enter zipcode");
+			element.click(empAddress1NAS, "click City");
 			element.sync().pause(2);
 		}
 
 	
 	
-	public void enterNASAssetAddress1(String assetnasadd1)
+	public void enterNASAssetAddress1(String asset_nasadd1)
 	{
-		element.click(AssetAddress1NAS, "");
-		element.sendKeys(AssetAddress1NAS, assetnasadd1, "");
+		element.click(assetAddress1NAS, "");
+		element.sendKeys(assetAddress1NAS, asset_nasadd1, "");
 	}
-	public void enterNASAssetZipCode(String assetnaszc)
+	public void enterNASAssetZipCode(String asset_naszc)
 	{
-		element.click(AssetZipCodeNAS, "");
-		element.sendKeys(AssetZipCodeNAS, assetnaszc, "");
+		element.click(assetZipCodeNAS, "");
+		element.sendKeys(assetZipCodeNAS, asset_naszc, "");
 	}
 	
-	public void enterNASLiabilityAddress1(String liabilitynasadd1)
+	public void enterNASLiabilityAddress1(String liability_nasadd1)
 	{
-		element.click(LiabilityAddress1NAS, "");
-		element.sendKeys(LiabilityAddress1NAS, liabilitynasadd1, "");
+		element.click(liabilityAddress1NAS, "");
+		element.sendKeys(liabilityAddress1NAS, liability_nasadd1, "");
 	}
 	public void enterNASLiabilityZipCode(String liabilitynaszc)
 	{
-		element.click(LiabilityZipCodeNAS, "");
-		element.sendKeys(LiabilityZipCodeNAS, liabilitynaszc, "");
+		element.click(liabilityZipCodeNAS, "");
+		element.sendKeys(liabilityZipCodeNAS, liabilitynaszc, "");
 	}
 	
-	public void enterNASRefAddress1(String refnasadd1)
+	public void enterNASRefAddress1(String ref_nasadd1)
 	{
-		element.click(RefAddress1NAS, "");
-		element.sendKeys(RefAddress1NAS, refnasadd1, "");
+		element.click(refAddress1NAS, "");
+		element.sendKeys(refAddress1NAS, ref_nasadd1, "");
 	}
 	public void enterNASRefZipCode(String refnaszc)
 	{
-		element.click(RefZipCodeNAS, "");
-		element.sendKeys(RefZipCodeNAS, refnaszc, "");
+		element.click(refZipCodeNAS, "");
+		element.sendKeys(refZipCodeNAS, refnaszc, "");
 	}
 	
 	public void selectBorrowerTypeNAS(String nas) {
 		element.sync().pause(5);
 		String NASstring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='" + nas + "']";
 		By selectNAS = By.xpath(NASstring);
-		element.click(BorrowerType, "Click on Type dropdown");
+		element.click(borrowerType, "Click on Type dropdown");
 	//	element.sync().waitForElement(selectNAS);
 		element.click(selectNAS, "");
 	}
@@ -1111,9 +1111,9 @@ public class DataEntryPage extends BaseElementPage {
 		try {
 			Thread.sleep(5000);
 			element.click(CTRLM, "click Ctrl+M");
-			element.jsExecute().scrollToElementClick(RoundPayment);
-			element.click(ContractDetailsLoanAmount, "click loan amount");
-			element.sendKeys(ContractDetailsLoanAmount, cdloanamount, "enter loan amount");
+			element.jsExecute().scrollToElementClick(roundPayment);
+			element.click(contractDetailsLoanAmount, "click loan amount");
+			element.sendKeys(contractDetailsLoanAmount, cdloanamount, "enter loan amount");
 			element.click(CTRLM, "click Ctrl+M");
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
@@ -1127,12 +1127,12 @@ public class DataEntryPage extends BaseElementPage {
 	public void selectRepaymentMethod(String method) {
 
 		try {
-			element.jsExecute().scrollToElement(RMTitle);
+			element.jsExecute().scrollToElement(rmTitle);
 			String methodstring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='" + method
 					+ "']";
 			By selectmethod = By.xpath(methodstring);
 			Thread.sleep(20000);
-			element.click(RepaymentMethod, "Click on Method DropDown");
+			element.click(repaymentMethod, "Click on Method DropDown");
 			element.click(selectmethod, "");
 			// element.click(CTRLM, "click ctrlm");
 		} catch (InterruptedException e) {
@@ -1141,26 +1141,26 @@ public class DataEntryPage extends BaseElementPage {
 		}
 	}
 
-	public void enterRMAccountNumber(String accntnumber) {
-		element.sendKeys(RMAccountNumber, accntnumber, "");
+	public void enterRMAccountNumber(String accnt_number) {
+		element.sendKeys(rmAccountNumber, accnt_number, "");
 	}
 
 	public void enterRMAccountSuffix(String accntsuffix) {
-		element.sendKeys(RMAccountSuffix, accntsuffix, "");
+		element.sendKeys(rmAccountSuffix, accntsuffix, "");
 	}
 
 	public void enterRMCompanyName(String company) {
-		element.sendKeys(RMCompanyName, company, "");
+		element.sendKeys(rmCompanyName, company, "");
 		element.click(CTRLM, "");
 	}
 
 	// Payment protection
 
-	public void selectSalesStatus(String salesstatus) {
+	public void selectSalesStatus(String sales_status) {
 		String salesstatusstring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='"
-				+ salesstatus + "']";
+				+ sales_status + "']";
 		By selectsalesstatus = By.xpath(salesstatusstring);
-		element.click(SalesStatus, "Click on Sales status DropDown");
+		element.click(salesStatus, "Click on Sales status DropDown");
 		element.click(selectsalesstatus, "");
 	}
 
@@ -1175,14 +1175,14 @@ public class DataEntryPage extends BaseElementPage {
 		String categorystring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='" + category
 				+ "']";
 		By selectcategory = By.xpath(categorystring);
-		element.click(CollateralCategory, "Click on Collateral Category");
+		element.click(collateralCategory, "Click on Collateral Category");
 		element.click(selectcategory, "");
 	}
 
 	public void selectCollateralName(String name) {
 		String namestring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='" + name + "']";
 		By selectname = By.xpath(namestring);
-		element.click(CollateralName, "Click on Name");
+		element.click(collateralName, "Click on Name");
 		element.click(selectname, "");
 	}
 
@@ -1190,19 +1190,19 @@ public class DataEntryPage extends BaseElementPage {
 	public void enterOwnerName(String owner) {
 		try {
 			Thread.sleep(10000);
-			element.click(OwnerName, "name");
-			element.sendKeys(OwnerName, owner, "enter name");
+			element.click(ownerName, "name");
+			element.sendKeys(ownerName, owner, "enter name");
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
 
-	public void enterEstimatedValue(String estimatedvalue) {
+	public void enterEstimatedValue(String estimated_value) {
 
-		element.jsExecute().scrollToElement(OwnerName);
-		element.click(EstimatedValue, "estimated value");
-		element.sendKeys(EstimatedValue, estimatedvalue, "enter value");
+		element.jsExecute().scrollToElement(ownerName);
+		element.click(estimatedValue, "estimated value");
+		element.sendKeys(estimatedValue, estimated_value, "enter value");
 	}
 
 	// Add RE Mortgage
@@ -1212,7 +1212,7 @@ public class DataEntryPage extends BaseElementPage {
 	{
 		try {
 			Thread.sleep(10000);
-			element.click(MortgageDetails, "click mortgage");
+			element.click(mortgageDetails, "click mortgage");
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -1220,86 +1220,86 @@ public class DataEntryPage extends BaseElementPage {
 
 	}
 
-	public void selectLien(String lienposition) {
+	public void selectLien(String lien_position) {
 		//element.jsExecute().scrollToElement(LienPosition);
 		element.click(CTRLM, "");
 		element.jsExecute().scrollDownTo(0, 0);
 		element.click(CTRLM, "");
 		element.sync().pause(5);
-		String lienstring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='" + lienposition
+		String lienstring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='" + lien_position
 				+ "']";
 		By selectlien = By.xpath(lienstring);
-		element.click(LienPosition, "Click on Lien");
+		element.click(lienPosition, "Click on Lien");
 		element.click(selectlien, "");
 		//element.sync().pause(5);
 	}
 	
 
-	public void enterMortgageHolder(String mortgageholder) {
-		element.sendKeys(MortgageHolder, mortgageholder, "");
+	public void enterMortgageHolder(String mortgage_holder) {
+		element.sendKeys(mortgageHolder, mortgage_holder, "");
 
 	}
 
 	public void enterMDPhone(String phone) {
-		element.sendKeys(MDPhoneNumber, phone, "");
+		element.sendKeys(mdPhoneNumber, phone, "");
 	}
 
 	public void enterMDDateOpen(String date) {
-		element.click(MDDateOpen, date);
-		element.sendKeys(MDDateOpen, date, "");
+		element.click(mdDateOpen, date);
+		element.sendKeys(mdDateOpen, date, "");
 	}
 
 	public void enterMDPI(String pi) {
-		element.sendKeys(MDExistingPI, pi, "");
+		element.sendKeys(mdExistingPI, pi, "");
 	}
 
 	public void enterMDPITI(String piti) {
-		element.sendKeys(MDExistingPITI, piti, "");
+		element.sendKeys(mdExistingPITI, piti, "");
 	}
 
 	public void enterMDPayment(String payment) {
-		element.jsExecute().scrollToElement(MDMonthlypayment);
-		element.sendKeys(MDMonthlypayment, payment, "");
+		element.jsExecute().scrollToElement(mdMonthlypayment);
+		element.sendKeys(mdMonthlypayment, payment, "");
 	}
 
-	public void enterMDIntRate(String Intrate) {
-		element.sendKeys(MDIntRate, Intrate, "");
+	public void enterMDIntRate(String intRate) {
+		element.sendKeys(mdIntRate, intRate, "");
 	}
 
 	public void enterMDBalance(String balance) {
-		element.sendKeys(MDBalance, balance, "");
+		element.sendKeys(mdBalance, balance, "");
 	}
 
-	public void enterMDPayoff(String mdpayoff) {
+	public void enterMDPayoff(String md_payoff) {
 	//	element.sync().pause(2);
-		element.click(MDPayoff, "");
+		element.click(mdPayoff, "");
 		System.out.println("clicked on payoff, enter value now");
-	    element.sendKeys(MDPayoff, mdpayoff, "");
+	    element.sendKeys(mdPayoff, md_payoff, "");
 		
 	}
 	
-	public void enterMDAddress1(String mdaddress1)
+	public void enterMDAddress1(String md_address1)
 	{
 		element.jsExecute().scrollToBottom();
 		
-		element.click(MDAddress1, "");
+		element.click(mdAddress1, "");
 		System.out.println("clicked address1, enter value now");
-		element.sendKeys(MDAddress1,mdaddress1,"");
+		element.sendKeys(mdAddress1,md_address1,"");
 	}
 
 	
 
-	public void enterMDZipCode(String mdzipcode)
+	public void enterMDZipCode(String md_zipcode)
 	{
-		element.click(MDZipCode, "");
+		element.click(mdZipCode, "");
 		System.out.println("clicked Zipcode, enter value now");
-		element.sendKeys(MDZipCode,mdzipcode,"");
-		element.click(MDAddress1, "populate values for zipcode");
+		element.sendKeys(mdZipCode,md_zipcode,"");
+		element.click(mdAddress1, "populate values for zipcode");
 		element.sync().pause(2);
 	}
 	
 	public void addMortgage() {
-		element.click(AddMortgage, "");
+		element.click(addMortgage, "");
 		element.sync().pause(5);
 	}
 
@@ -1308,28 +1308,28 @@ public class DataEntryPage extends BaseElementPage {
 	public void clickRECosts()
 	{
 		element.sync().pause(5);
-		element.click(RealEstateCosts, "");
+		element.click(realEstateCosts, "");
 	}
 	
-	public void selectEscrowPaymentType(String escrowpaytype)
+	public void selectEscrowPaymentType(String escrow_paytype)
 	{
 		element.sync().pause(5);
-		String escrowstring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='" + escrowpaytype
+		String escrowstring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='" + escrow_paytype
 				+ "']";
 		By selectescrowtype = By.xpath(escrowstring);
-		element.click(EscrowPaymentType, "");
+		element.click(escrowPaymentType, "");
 		element.click(selectescrowtype, "");
 		element.sync().pause(2);	
 	}
 	
-	public void enterCostDescription(String costdesc)
+	public void enterCostDescription(String cost_desc)
 	{
-				element.sendKeys(CostDescription,costdesc, "");
+				element.sendKeys(costDescription,cost_desc, "");
 	}
 	
-	public void enterREMonthlyPayment(String remonthlypayment)
+	public void enterREMonthlyPayment(String re_monthlypayment)
 	{
-				element.sendKeys(RECostPayment ,remonthlypayment, "");
+				element.sendKeys(reCostPayment ,re_monthlypayment, "");
 	}
 	
 	public void checkEscrow()
@@ -1343,7 +1343,7 @@ public class DataEntryPage extends BaseElementPage {
 	public void addRECosts()
 	{
 		
-		element.click(AddRECosts, "Add RE Costs");
+		element.click(addRECosts, "Add RE Costs");
 		element.sync().pause(5);
 	}
 	
@@ -1352,85 +1352,85 @@ public class DataEntryPage extends BaseElementPage {
 	{
 		element.sync().pause(5);
 		element.jsExecute().scrollToBottom();
-		element.click(REInsurance, "");
+		element.click(reInsurance, "");
 	}
 	
-	public void selectREInsurancePolicyType(String reinsurancepolicytype)
+	public void selectREInsurancePolicyType(String re_insurancepolicytype)
 	{
 		element.sync().pause(8);
-		String repolicytypestring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='" + reinsurancepolicytype
+		String repolicytypestring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='" + re_insurancepolicytype
 				+ "']";
 		By selectreinsurancepolicytype = By.xpath(repolicytypestring);
-		element.click(InsPolicyType , "");
+		element.click(insPolicyType , "");
 		element.click(selectreinsurancepolicytype, "");
 		element.sync().pause(2);	
 	}
 	
-	public void enterInsPolicyNo(String inspolicyno)
+	public void enterInsPolicyNo(String ins_policyno)
 	{
-		element.click(InsPolicyNo , "");
-		element.sendKeys(InsPolicyNo, inspolicyno, "");
+		element.click(insPolicyNo , "");
+		element.sendKeys(insPolicyNo, ins_policyno, "");
 	}
 	
 	
-	public void enterInsExpdate(String insexpdate)
+	public void enterInsExpdate(String ins_expdate)
 	{
-		element.click(InsExpDate , "");
-		element.sendKeys(InsExpDate, insexpdate, "");
+		element.click(insExpDate , "");
+		element.sendKeys(insExpDate, ins_expdate, "");
 	}
 	
 	
-	public void enterinsCoverage(String inscoverage)
+	public void enterinsCoverage(String ins_coverage)
 	{
-		element.sendKeys(InsCoverage ,inscoverage, "");
+		element.sendKeys(insCoverage ,ins_coverage, "");
 	}
 	
 	
-	public void enterInsPremium(String inspremium)
+	public void enterInsPremium(String ins_premium)
 	{
-		element.sendKeys(InsPremium, inspremium, "");
+		element.sendKeys(insPremium, ins_premium, "");
 	}
 	
 	
-	public void enterInsDeductible(String insdeductible)
+	public void enterInsDeductible(String ins_deductible)
 	{
-		element.sendKeys(InsDeductible , insdeductible, "");
+		element.sendKeys(insDeductible , ins_deductible, "");
 	}
 	
-	public void enterInsCompany(String inscompany)
+	public void enterInsCompany(String ins_company)
 	{
-		element.sendKeys(InsCompany, inscompany, "");
+		element.sendKeys(insCompany, ins_company, "");
 	}
 	
-	public void enterInsAgent(String insagent)
+	public void enterInsAgent(String ins_agent)
 	{
-		element.sendKeys(InsAgent, insagent, "");
+		element.sendKeys(insAgent, ins_agent, "");
 	}
 	
-	public void enterInsPhone(String insphone)
+	public void enterInsPhone(String ins_phone)
 	{
-		element.jsExecute().scrollToElement(InsPolicyNo);
-		element.click(InsPhone, "");
-		element.sendKeys(InsPhone, insphone, "");
+		element.jsExecute().scrollToElement(insPolicyNo);
+		element.click(insPhone, "");
+		element.sendKeys(insPhone, ins_phone, "");
 	}
 	
-	public void enterInsAddress1(String insadd1)
+	public void enterInsAddress1(String insAdd1)
 	{
-		element.click(InsAddress1, "");
-		element.sendKeys(InsAddress1, insadd1, "");
+		element.click(insAddress1, "");
+		element.sendKeys(insAddress1, insAdd1, "");
 	}
 	
-	public void enterInsZipCode(String inszipcode)
+	public void enterInsZipCode(String ins_zipcode)
 	{
-		element.click(InsZipCode, "");
-		element.sendKeys(InsZipCode, inszipcode, "");
-		element.click(InsAddress1, "populate zipcode details");
+		element.click(insZipCode, "");
+		element.sendKeys(insZipCode, ins_zipcode, "");
+		element.click(insAddress1, "populate zipcode details");
 	}
 
 	public void addReInsurance()
 	{
 		element.sync().pause(5);
-		element.click(AddInsurance,"add REInsurance");
+		element.click(addInsurance,"add REInsurance");
 	}
 	
 	
@@ -1440,32 +1440,32 @@ public class DataEntryPage extends BaseElementPage {
 	{
 		element.sync().pause(5);
 		element.jsExecute().scrollToBottom();
-		element.click(CollateralOwner, "");
+		element.click(collateralOwner, "");
 		element.sync().pause(5);
 	}
 	
-	public void enterCollOwnerName(String collownername)
+	public void enterCollOwnerName(String collOwnerName)
 	{
-		element.click(CollateralOwnerName, "");
-		element.sendKeys(CollateralOwnerName, collownername, "");
+		element.click(collateralOwnerName, "");
+		element.sendKeys(collateralOwnerName, collOwnerName, "");
 	}
 	
-	public void enterCollOwnerAddress1(String collowneradd1)
+	public void enterCollOwnerAddress1(String coll_owneradd1)
 	{
-		element.click(CollOwnerAddress1, "");
-		element.sendKeys(CollOwnerAddress1, collowneradd1, "");
+		element.click(collOwnerAddress1, "");
+		element.sendKeys(collOwnerAddress1, coll_owneradd1, "");
 	}
 	
-	public void enterCollOwnerZipCode(String collownerzipcode)
+	public void enterCollOwnerZipCode(String collowner_zipcode)
 	{
-		element.click(CollOwnerZipCode,"");
-		element.sendKeys(CollOwnerZipCode, collownerzipcode, "");
-		element.click(CollOwnerAddress1, "");
+		element.click(collOwnerZipCode,"");
+		element.sendKeys(collOwnerZipCode, collowner_zipcode, "");
+		element.click(collOwnerAddress1, "");
 	}
 	
 	public void addCollOwner()
 	{
-		element.click(AddCollateralOwner, "");
+		element.click(addCollateralOwner, "");
 		element.sync().pause(5);
 	}
 	//Existing Lien details
@@ -1475,113 +1475,113 @@ public class DataEntryPage extends BaseElementPage {
 	{
 		element.sync().pause(2);
 		element.jsExecute().scrollToBottom();
-		element.click(ExistingLien, "");
+		element.click(existingLien, "");
 	}
 	
-	public void enterLienHolder(String lienholder)
+	public void enterLienHolder(String lien_holder)
 	{
 		element.sync().pause(2);
-		element.sendKeys(LienHolder, lienholder, "");
+		element.sendKeys(lienHolder, lien_holder, "");
 	}
 	
-	public void selectExistLienPosition(String existlienposition) {
-		String existlienstring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='" + existlienposition
+	public void selectExistLienPosition(String exist_lienposition) {
+		String existlienstring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='" + exist_lienposition
 				+ "']";
 		By selectexistlien = By.xpath(existlienstring);
-		element.click(ExistLienPosition, "Click on Lien");
+		element.click(existLienPosition, "Click on Lien");
 		element.click(selectexistlien, "");
 		
 	}
 	
-	public void enterExistLienDesc(String liendesc)
+	public void enterExistLienDesc(String lien_desc)
 	{
 		element.sync().pause(2);
-		element.sendKeys(ExistLienDesc , liendesc, "");
+		element.sendKeys(existLienDesc , lien_desc, "");
 	}
 	
-	public void enterExistLienPhoneNo(String lienphoneno)
+	public void enterExistLienPhoneNo(String lien_phoneno)
 	{
 		element.sync().pause(2);
-		element.sendKeys(ExistLienPhoneNo , lienphoneno, "");
+		element.sendKeys(existLienPhoneNo , lien_phoneno, "");
 	}
 	
-	public void enterExistLienfaxNo(String lienfaxno)
+	public void enterExistLienfaxNo(String lien_faxno)
 	{
 		element.sync().pause(2);
-		element.sendKeys(ExistLienFaxNo , lienfaxno, "");
+		element.sendKeys(existLienFaxNo , lien_faxno, "");
 	}
 	
-	public void enterExistLienAccNo(String lienaccno)
+	public void enterExistLienAccNo(String lien_accno)
 	{
 		element.sync().pause(2);
-		element.sendKeys(ExistLienAccNo  , lienaccno, "");
+		element.sendKeys(existLienAccNo  , lien_accno, "");
 	}
 	
-	public void enterExistDateOpen(String liendateopen)
+	public void enterExistDateOpen(String lien_dateopen)
 	{
 		element.sync().pause(2);
-		element.sendKeys(ExistLienDateOpen  , liendateopen, "");
+		element.sendKeys(existLienDateOpen  , lien_dateopen, "");
 	}
-	public void enterExistLienPI(String lienpi)
+	public void enterExistLienPI(String lien_pi)
 	{
 		element.jsExecute().scrollToBottom();
 		element.sync().pause(2);
-		element.sendKeys(ExistLienPI  , lienpi, "");
+		element.sendKeys(existLienPI  , lien_pi, "");
 	}
 	
-	public void enterExistLienPITI(String lienpiti)
+	public void enterExistLienPITI(String lien_piti)
 	{
 		element.sync().pause(2);
-		element.sendKeys(ExistLienPITI  , lienpiti, "");
+		element.sendKeys(existLienPITI  , lien_piti, "");
 	}
 	
-	public void enterExistLienPayment(String lienpayment)
+	public void enterExistLienPayment(String lienPayment)
 	{
 		element.sync().pause(2);
-		element.sendKeys(ExistLienPayment  , lienpayment, "");
+		element.sendKeys(existLienPayment  , lienPayment, "");
 	}
 	
 	
-	public void enterExistLienRate(String lienrate)
+	public void enterExistLienRate(String lien_rate)
 	{
 		element.sync().pause(2);
-		element.sendKeys(ExistLienRate  , lienrate, "");
+		element.sendKeys(existLienRate  , lien_rate, "");
 	}
 	
-	public void enterExistLienBalance(String lienbalance)
+	public void enterExistLienBalance(String lien_balance)
 	{
 		element.sync().pause(2);
-		element.sendKeys(ExistLienBalance  , lienbalance, "");
+		element.sendKeys(existLienBalance  , lien_balance, "");
 	}
 	
-	public void enterExistLienPayOff(String lienpayoff)
+	public void enterExistLienPayOff(String lien_payoff)
 	{
 		element.sync().pause(2);
-		element.sendKeys(ExistLienPayoff  , lienpayoff, "");
+		element.sendKeys(existLienPayoff  , lien_payoff, "");
 	}
-	public void enterExistLienDebtSpread(String liendebtspread)
+	public void enterExistLienDebtSpread(String lienDebtSpread)
 	{
 		element.sync().pause(2);
-		element.sendKeys(ExistLienDebtSpread  , liendebtspread, "");
+		element.sendKeys(existLienDebtSpread  , lienDebtSpread, "");
 	}
 	
-	public void enterExistLienAddress1(String lienadd1)
+	public void enterExistLienAddress1(String lien_add1)
 	{
 		
-		element.sendKeys(ExistLienAdd1  , lienadd1, "");
+		element.sendKeys(existLienAdd1  , lien_add1, "");
 	}
 	
-	public void enterExistLienZipCode(String lienzipcode)
+	public void enterExistLienZipCode(String lien_zipcode)
 	{
 		
-		element.sendKeys(ExistLienZipCode  , lienzipcode, "");
-		element.click(ExistLienAdd1, "populate zipcode values");
+		element.sendKeys(existLienZipCode  , lien_zipcode, "");
+		element.click(existLienAdd1, "populate zipcode values");
 		element.sync().pause(5);
 	}
 	
 	public void addExistingLien()
 	{
-				element.click(AddExistLien  , "");
+				element.click(addExistLien  , "");
 				element.sync().pause(5);
 	}
 	
@@ -1590,37 +1590,37 @@ public class DataEntryPage extends BaseElementPage {
 	public void clickLienFiling()
 	{
 		element.jsExecute().scrollToBottom();
-		element.click(LienFiling, "");
+		element.click(lienFiling, "");
 		element.sync().pause(5);
 	}
 	
 	
 	public void clickLienFilingYes()
 	{
-	element.click(LienFilingYes, "");
+	element.click(lienFilingYes, "");
 	
 	}
 	
 	
-	public void enterFiledBy(String filedby)
+	public void enterFiledBy(String filed_by)
 	{
-		element.sync().waitForElement(WhoFiled);
-		element.sendKeys(WhoFiled, filedby, "");
+		element.sync().waitForElement(whoFiled);
+		element.sendKeys(whoFiled, filed_by, "");
 	}
 	
-	public void enterDateFiled(String datefiled)
+	public void enterDateFiled()
 	{
-		element.click(DateFiled, "");
+		element.click(dateFiled, "");
 		element.sync().pause(2);
-		element.click(TodaysDate, "");
+		element.click(todaysDate, "");
 	}
 	
 	
-	public void enterDateReceived(String datereceived)
+	public void enterDateReceived()
 	{
-		element.click(DateReceived,"");
+		element.click(dateReceived,"");
 		element.sync().pause(2);
-		element.click(TodaysDate, "");
+		element.click(todaysDate, "");
 		
 	}
 	
@@ -1629,39 +1629,39 @@ public class DataEntryPage extends BaseElementPage {
 	
 	// Titled Goods KBB Collateral
 
-	public void selectKBBYear(String kbbyear) {
-		element.jsExecute().scrollToElementClick(KBBYear);
-		String kbbyearstring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='" + kbbyear
+	public void selectKBBYear(String kbb_year) {
+		element.jsExecute().scrollToElementClick(kbbYear);
+		String kbbyearstring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='" + kbb_year
 				+ "']";
 		By selectkbbyear = By.xpath(kbbyearstring);
-		element.click(KBBYear, "Click on year DropDown");
+		element.click(kbbYear, "Click on year DropDown");
 		element.click(selectkbbyear, "");
 	}
 
-	public void selectKBBMake(String kbbmake) {
+	public void selectKBBMake(String kbb_make) {
 
-		String kbbmakestring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='" + kbbmake
+		String kbbmakestring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='" + kbb_make
 				+ "']";
 		By selectkbbmake = By.xpath(kbbmakestring);
-		element.click(KBBMake, "Click on Make DropDown");
+		element.click(kbbMake, "Click on Make DropDown");
 		element.click(selectkbbmake, "");
 	}
 
-	public void selectKBBModel(String kbbmodel) {
+	public void selectKBBModel(String kbb_model) {
 
-		String kbbmodelstring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='" + kbbmodel
+		String kbbmodelstring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='" + kbb_model
 				+ "']";
 		By selectkbbmodel = By.xpath(kbbmodelstring);
-		element.click(KBBModel, "Click on model DropDown");
+		element.click(kbbModel, "Click on model DropDown");
 		element.click(selectkbbmodel, "");
 	}
 
-	public void selectKBBSubModel(String kbbsubmodel) {
+	public void selectKBBSubModel(String kbb_submodel) {
 
 		String kbbsubmodelstring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='"
-				+ kbbsubmodel + "']";
+				+ kbb_submodel + "']";
 		By selectkbbsubmodel = By.xpath(kbbsubmodelstring);
-		element.click(KBBSubModel, "Click on submodel DropDown");
+		element.click(kbbSubModel, "Click on submodel DropDown");
 		element.click(selectkbbsubmodel, "");
 	}
 
@@ -1670,26 +1670,26 @@ public class DataEntryPage extends BaseElementPage {
 		String kbbbodystylestring = "//*[contains(@class,'k-animation-container')][@dir='ltr']//li[text()='"
 				+ kbbbodystyle + "']";
 		By selectkbbbodystyle = By.xpath(kbbbodystylestring);
-		element.click(KBBBodyStyle, "Click on Body style DropDown");
+		element.click(kbbBodyStyle, "Click on Body style DropDown");
 		element.click(selectkbbbodystyle, "");
 	}
 
 	public void clickKBBGetOptions() {
-		element.click(KBBGetOptionsbttn, "");
+		element.click(kbbGetOptionsbttn, "");
 	}
 
 	public void clickKBBGetPricing() {
-		element.jsExecute().scrollToElement(KBBEngineSize);
-		element.click(KBBGetPricing, "");
+		element.jsExecute().scrollToElement(kbbEngineSize);
+		element.click(kbbGetPricing, "");
 
 	}
 	
 
 	public void clickKBBGetPricingYesbttn() {
-		element.click(KBBGetPricingYesbttn, "");
+		element.click(kbbGetPricingYesbttn, "");
 		try {
 			Thread.sleep(5000);
-			element.jsExecute().scrollToElement(KBBYear);
+			element.jsExecute().scrollToElement(kbbYear);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -1704,7 +1704,7 @@ public class DataEntryPage extends BaseElementPage {
 	public void clickNext() {
 		try {
 			Thread.sleep(5000);
-			element.click(Nextbttn, "click Next");
+			element.click(nextBttn, "click Next");
 			
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
@@ -1713,16 +1713,16 @@ public class DataEntryPage extends BaseElementPage {
 	}
 
 	public void clickSubmit() {
-		element.click(Submitbttn, "click Submit");
+		element.click(submitbttn, "click Submit");
 	}
 
 	public void CloseActionStatuswindow() {
-		element.click(Closebttn, "close action status window");
+		element.click(closeBttn, "close action status window");
 	}
 
 	public void selectRegBCreditType() {
 		element.sync().pause(5);
-		element.click(RegBCreditType, "click yes");
+		element.click(regBCreditType, "click yes");
 	}
 
 
@@ -1730,7 +1730,7 @@ public class DataEntryPage extends BaseElementPage {
 
 public void unsavedchangesYes()
 {
-	element.click(UnsavedChangesYes,"");
+	element.click(unsavedChangesYes,"");
 	element.sync().pause(5);
 	
 }
