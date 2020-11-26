@@ -23,6 +23,8 @@ public class LoginPage extends BaseElementPage {
 	}
 
 	public void enterUserName(String username) {
+		element.sync().waitForSpinner(30);
+		element.sync().pause(15);
 		element.sendKeys(userName, username, "Enter GlobalBank username :" + username);
 	}
 
